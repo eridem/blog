@@ -1,5 +1,5 @@
 # Site settings
-title: eridem.net
+title: Eridem
 header-img: img/home-bg.jpg
 email: m@eridem.net
 copyright_name: Eridem
@@ -12,8 +12,7 @@ facebook_username:
 email_username: m@eridem.net
 
 # Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-51139284-1
 
 # Build settings
 markdown: kramdown
