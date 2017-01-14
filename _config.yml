@@ -1,0 +1,25 @@
+# Site settings
+title: eridem.net
+header-img: img/home-bg.jpg
+email: m@eridem.net
+copyright_name: Eridem
+description: "Miguel Ángel Domínguez Coloma's personal blog and company"
+baseurl: ""
+url: "http://eridem.net"
+twitter_username: eridemnet
+github_username:  eridem
+facebook_username:  
+email_username: m@eridem.net
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
