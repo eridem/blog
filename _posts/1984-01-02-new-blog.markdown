@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Migration from Wordpress"
+title:      "New Blog"
 subtitle:   "because Jekyll blogs are cool."
-date:       1984-01-02 12:00:00
 author:     "eridem"
 header-img: "img/featured/1984-01-02-new-blog.jpg"
+permalink:  new-blog
 ---
 
 New blog based hosted on GitHub and powered by Jekyll.
