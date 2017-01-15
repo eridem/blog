@@ -8,6 +8,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
+  background-color: #EAEAEA;
 }
 p {
   line-height: 1.5;
@@ -47,7 +48,8 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: white;
+  background: #292B2F;
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -135,13 +137,12 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #33363B;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -219,10 +220,20 @@ hr.small {
   text-decoration: none;
   color: #0085a1;
 }
+.post-preview.col-md-12 > a > .post-image {
+  height: 350px;
+}
+.post-preview.col-md-6 > a > .post-image {
+  height: 225px;
+}
+.post-preview > a > .post-image {
+  background-size: cover;
+}
 .post-preview > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
+  color: #444;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
@@ -246,7 +257,8 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 30px;
+    color: #444;
   }
 }
 .section-heading {
@@ -403,4 +415,54 @@ body {
 }
 .featured-text {
   font-size: 10px;
+}
+.sidebar-left > nav {
+  background-color: #3B8DBD;
+  border-color: #3B8DBD;
+  border-left: 1px solid #292B2F;
+  border-top: 1px solid #292B2F;
+  margin-left: -1px;
+}
+.sidebar-right > nav {
+  border-right: 1px solid #292B2F;
+  border-top: 1px solid #292B2F;
+}
+.sidebar-left > nav > div > div > a, .sidebar-right > nav > div > div > a {
+  margin: 5px -10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.content-sidebar-left {
+  margin-left: -1px;
+  background-color: #F0F0F0;
+  border: 1px solid #E3E3E3;
+  border-right: 0px;
+}
+.content-sidebar-right {
+  background-color: #ffffff;
+  border: 1px solid #E3E3E3;
+  padding-bottom: 15px;
+}
+.nomargin-bottom {
+  margin-bottom: 0 !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.profile-description {
+  font-size: 17px;
+  color: #808080;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: right;
 }
