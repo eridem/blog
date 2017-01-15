@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: m@eridem.net
 copyright_name: Eridem
 description: "miguel ángel domínguez coloma´s blog"
-baseurl: "/"
+baseurl: ""
 url: "http://eridem.net"
 
 # Social
