@@ -1,6 +1,6 @@
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
+ * Copyright 2017 Start Bootstrap
  * Licensed under MIT (https://spdx.org/licenses/MIT)
  */
 
@@ -8,7 +8,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 p {
   line-height: 1.5;
@@ -48,8 +48,8 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: #292B2F;
-  color: white;
+  background: #292b2f;
+  color: #ffffff;
   position: absolute;
   top: 0;
   left: 0;
@@ -137,7 +137,7 @@ hr.small {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #33363B;
+  background-color: #33363b;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -212,6 +212,12 @@ hr.small {
     font-size: 30px;
   }
 }
+.post-preview.col-md-12 > a > .post-image {
+  height: 350px;
+}
+.post-preview.col-md-6 > a > .post-image {
+  height: 225px;
+}
 .post-preview > a {
   color: #404040;
 }
@@ -220,12 +226,6 @@ hr.small {
   text-decoration: none;
   color: #0085a1;
 }
-.post-preview.col-md-12 > a > .post-image {
-  height: 350px;
-}
-.post-preview.col-md-6 > a > .post-image {
-  height: 225px;
-}
 .post-preview > a > .post-image {
   background-size: cover;
 }
@@ -233,7 +233,7 @@ hr.small {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
-  color: #444;
+  color: #444444;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
@@ -254,12 +254,6 @@ hr.small {
 .post-preview > .post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
-}
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 30px;
-    color: #444;
-  }
 }
 .section-heading {
   font-size: 36px;
@@ -427,7 +421,8 @@ body {
   border-right: 1px solid #292B2F;
   border-top: 1px solid #292B2F;
 }
-.sidebar-left > nav > div > div > a, .sidebar-right > nav > div > div > a {
+.sidebar-left > nav > div > div > a,
+.sidebar-right > nav > div > div > a {
   margin: 5px -10px;
   font-weight: 600;
   font-size: 16px;
@@ -448,8 +443,8 @@ body {
   margin-bottom: 0 !important;
 }
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .row {
   display: flex;

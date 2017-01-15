@@ -1,8 +1,4 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
- * Licensed under MIT (https://spdx.org/licenses/MIT)
- */
+<script>
 
 // Tooltip Init
 $(function() {
@@ -999,7 +995,15 @@ $('#name').focus(function() {
 
 // make all images responsive
 $(function() {
-	$("img").addClass("img-responsive");
+	$("img").addClass("img-responsive").each(function() {
+        var img = $(this);
+        var src = img.attr('src');
+
+        if (src.startsWith("/img/") || src.startsWith("img/")) {
+            var newUrl = "{{ site.url }}{{ site.baseurl }}/" + src;
+            img.attr('src', newUrl);
+        }
+    })
 });
 
 // responsive tables
@@ -1056,3 +1060,4 @@ jQuery(document).ready(function($) {
             });
     }
 });
+</script>

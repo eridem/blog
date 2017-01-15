@@ -7,6 +7,7 @@ body {
 	.serif;
 	font-size: 20px;
 	color: @gray-dark;
+	background-color: @page-background-color;
 }
 
 // -- Typography
@@ -59,7 +60,8 @@ hr.small {
 // Navigation
 
 .navbar-custom {
-	background: white;
+	background: @page-navbar-color;
+	color: @page-navbar-foreground-color;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -158,18 +160,17 @@ hr.small {
 
 .intro-header {
 	background: no-repeat center center;
-	background-color: @gray;
+	background-color: @page-header-color;
 	background-attachment: scroll;
 	.background-cover;
 	// NOTE: Background images are set within the HTML using inline CSS!
-	margin-bottom: 50px;
 	.site-heading,
 	.post-heading,
 	.page-heading {
 		padding: 100px 0 50px;
 		color: white;
 		@media only screen and (min-width: 768px) {
-			padding: 150px 0;
+			padding: 75px 0;
 		}
 	}
 	.site-heading,
@@ -231,6 +232,20 @@ hr.small {
 // Post Preview Pages
 
 .post-preview {
+	&.col-md-12 {
+		> a {
+			> .post-image {
+				height: 350px;
+			}
+		}
+	}
+	&.col-md-6 {
+		> a {
+			> .post-image {
+				height: 225px;
+			}
+		}
+	}
 	> a {
 		color: @gray-dark;
 		&:hover,
@@ -238,10 +253,14 @@ hr.small {
 			text-decoration: none;
 			color: @brand-primary;
 		}
+		> .post-image {
+			background-size: cover;
+		}
 		> .post-title {
 			font-size: 30px;
 			margin-top: 30px;
 			margin-bottom: 10px;
+			color: @post-title-color;
 		}
 		> .post-subtitle {
 			margin: 0;
@@ -261,13 +280,6 @@ hr.small {
 			&:focus {
 				color: @brand-primary;
 				text-decoration: underline;
-			}
-		}
-	}
-	@media only screen and (min-width: 768px) {
-		> a {
-			> .post-title {
-				font-size: 36px;
 			}
 		}
 	}
@@ -292,7 +304,7 @@ hr.small {
 	border-bottom-left-radius: 5px;
 }
 
-footer {
+.footer {
 	padding: 50px 0 65px;
 	.list-inline {
 		margin: 0;
@@ -460,4 +472,58 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: @brand-primary;
+}
+
+.featured-text {
+  font-size: 10px;
+}
+.sidebar-left > nav {
+  background-color: #3B8DBD;
+  border-color: #3B8DBD;
+  border-left: 1px solid #292B2F;
+  border-top: 1px solid #292B2F;
+  margin-left: -1px;
+}
+.sidebar-right > nav {
+  border-right: 1px solid #292B2F;
+  border-top: 1px solid #292B2F;
+}
+.sidebar-left > nav > div > div > a, .sidebar-right > nav > div > div > a {
+  margin: 5px -10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.content-sidebar-left {
+  margin-left: -1px;
+  background-color: #F0F0F0;
+  border: 1px solid #E3E3E3;
+  border-right: 0px;
+}
+.content-sidebar-right {
+  background-color: #ffffff;
+  border: 1px solid #E3E3E3;
+  padding-bottom: 15px;
+}
+.nomargin-bottom {
+  margin-bottom: 0 !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.profile-description {
+  font-size: 17px;
+  color: #808080;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: right;
 }
