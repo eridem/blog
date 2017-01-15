@@ -1,9 +1,13 @@
 {
-  "name": "clean-blog",
-  "title": "Clean Blog",
+  "name": "eridem-net-blog",
+  "title": "Eridem.net",
   "version": "1.0.0",
-  "homepage": "http://startbootstrap.com",
-  "author": "Start Bootstrap",
+  "homepage": "http://eridem.net",
+  "author": {
+    "name": "Miguel Ángel Domínguez Coloma",
+    "email": "m@eridem.net",
+    "url": "http://eridem.net"
+  },
   "license": "MIT",
   "scripts": {
     "grunt": "grunt"

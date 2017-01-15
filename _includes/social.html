@@ -1,0 +1,30 @@
+{% if site.facebook_username %}
+<li>
+    <a href="https://www.facebook.com/{{ site.facebook_username }}"><span class="icon-facebook2"></span></a>
+</li>
+{% endif %}
+{% if site.github_username %}
+<li>
+    <a href="https://github.com/{{ site.github_username }}"><span class="icon-github"></span></a>
+</li>
+{% endif %}
+{% if site.npm_username %}
+<li>
+    <a href="https://www.npmjs.com/~{{ site.npm_username }}"><span class="icon-npm"></span></a>
+</li>
+{% endif %}
+{% if site.linkedin_username %}
+<li>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="icon-linkedin"></span></a>
+</li>
+{% endif %}
+{% if site.twitter_username %}
+<li>
+    <a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon-twitter"></span></a>
+</li>
+{% endif %}
+{% if site.email_username %}
+<li>
+    <a href="mailto:{{ site.email_username }}"><span class="icon-mail2"></span></a>
+</li>
+{% endif %}
