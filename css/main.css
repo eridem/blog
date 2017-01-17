@@ -1717,6 +1717,9 @@ hr.small {
   font-style: italic;
   color: #404040;
 }
+.post-preview .post-image {
+  background-color: #33363B;
+}
 .post-preview.col-md-12 > a > .post-image {
   margin-left: -15px;
   margin-top: -1px;

@@ -7,7 +7,11 @@
 
     <title>{% if page.title %}{{ page.title }} - Eridem{% else %}Eridem{% endif %}</title>
 
+    {% if page.external %}
+    <link rel="canonical" href="{{ page.external }}" />
+    {% else %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
