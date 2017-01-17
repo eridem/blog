@@ -1000,7 +1000,7 @@ $(function() {
         var src = img.attr('src');
 
         if (src.startsWith("/img/") || src.startsWith("img/")) {
-            var newUrl = "{{ site.url }}{{ site.baseurl }}/" + src;
+            var newUrl = "{{ site.baseurl }}/" + src.replace(/^\//gi, '');;
             img.attr('src', newUrl);
         }
     })
