@@ -9,5 +9,3 @@ permalink:  pixel-perfect-qa-team
 ---
 
 ![](img/posts/pixel-perfect/QATeam.png)
-
-> Draw by Miguel Ángel Domínguez Coloma, June 2015

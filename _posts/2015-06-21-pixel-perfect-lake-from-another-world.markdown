@@ -9,5 +9,3 @@ permalink:  pixel-perfect-lake-from-another-world
 ---
 
 ![](img/posts/pixel-perfect/PixelPerfect_LakeAnotherWorld.png)
-
-> Draw by Miguel Ángel Domínguez Coloma, June 2015

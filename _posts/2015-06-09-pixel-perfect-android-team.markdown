@@ -9,5 +9,3 @@ permalink:  pixel-perfect-android-team
 ---
 
 ![](img/posts/pixel-perfect/AndroidTeam.png)
-
-> Draw by Miguel Ángel Domínguez Coloma, June 2015
