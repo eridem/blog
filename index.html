@@ -13,7 +13,11 @@ header-img: ""
 
     <div class="post-preview {% if forloop.index == 1 %}{{ "col-md-12 col-lg-12 col-sm-12 col-xs-12"  }}{% else %}{{ "col-md-6 col-lg-6 col-sm-6 col-xs-12" }}{% endif %}">
         <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if (post.header-img) %}
             <div class="post-image" style="background-image: url({{ site.baseurl }}/{{ post.header-img }})"></div>
+            {% else %}
+            <div class="post-image" style="background-image: url({{ site.baseurl }}/{{ post.main-img }})"></div>
+            {% endif %}
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
             <h3 class="post-subtitle">
