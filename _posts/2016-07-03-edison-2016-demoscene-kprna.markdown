@@ -10,8 +10,8 @@ This year I participate on the Demoscene Edison 2016.
 
 I had a pending experiment to do using JavaScript synchronized with WebAudio. The demo does not play a single MP3, it uses samples aligned with the text to play the animations! Enjoy it!
 
-{% include youtube.html id="SMyBfwKUYOs" %}
+{% include youtube.markdown id="SMyBfwKUYOs" %}
 
 And the live performance:
 
-{% include youtube.html id="pkhMWaMpZeE" %}
+{% include youtube.markdown id="pkhMWaMpZeE" %}
