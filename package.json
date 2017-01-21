@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "grunt": "grunt"
+    "grunt": "grunt",
+    "build": "grunt",
+    "serve": "jekyll serve --watch"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
