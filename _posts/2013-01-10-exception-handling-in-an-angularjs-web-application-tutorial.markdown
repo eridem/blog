@@ -4,6 +4,7 @@ title:      "Exception Handling in an AngularJS Web Application"
 author:     "eridem"
 header-img: "img/featured/2013-01-10-exception-handling-in-an-angularjs-web-application-tutorial.svg"
 permalink:  exception-handling-in-an-angularjs-web-application-tutorial
+external: http://blog.loadimpact.com/blog/exception-handling-in-an-angularjs-web-application-tutorial/
 ---
 
 During this tutorial I will implement best practices for exception handling in an [AngularJS](https://docs.angularjs.org/api) web application. I’ll start creating the structure of a demo application, throw some test exceptions and intercept them. The second part of this tutorial will cover some frameworks that will help you organize your exception logs using [Raven](http://ravenjs.com/) with [Sentry](http://getsentry.com/).
