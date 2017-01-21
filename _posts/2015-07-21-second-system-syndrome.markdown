@@ -2,9 +2,9 @@
 layout:     post
 title:      "Second System Syndrome"
 author:     "eridem"
-header-img: "img/featured/2015-07-21-second-system-syndrome.png"
-featured-author: Eridem
-featured-link: http://eridem.net
+#header-img: "img/featured/2015-07-21-second-system-syndrome.png"
+#featured-author: Eridem
+#featured-link: http://eridem.net
 permalink:  second-system-syndrome
 external: http://blog.loadimpact.com/blog/devops/second-system-syndrome/
 ---
