@@ -31,13 +31,14 @@ layout: default
                     </div>
                 </nav>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 hidden-xs sidebar-right nopadding">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 sidebar-right nopadding">
                 <nav class="navbar navbar-default nomargin-bottom">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="#">Posts</a>
+                            {% include social-on-brand.html %}
                         </div>
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right hidden-xs">
                             {% include social.html %}
                         </ul>
                     </div>
