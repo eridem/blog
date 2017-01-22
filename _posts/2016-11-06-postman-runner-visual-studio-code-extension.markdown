@@ -2,7 +2,7 @@
 layout:     post
 title:      "Postman Runner | Visual Studio Code Extension"
 author:     "eridem"
-main-img:   /img/featured/2016-11-06-postman-runner-visual-studio-code-extension.jpg
+main-img: img/featured/2016-11-06-postman-runner-visual-studio-code-extension.jpg
 permalink:  postman-runner-visual-studio-code-extension
 ---
 

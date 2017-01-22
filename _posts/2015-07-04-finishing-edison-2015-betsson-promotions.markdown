@@ -2,7 +2,7 @@
 layout:     post
 title:      "Finishing Edison 2015, Betsson promotions"
 author:     "eridem"
-header-img: "/img/posts/2015-07-04-finishing-edison-2015-betsson-promotions/GravityOddisee.png"
+header-img: "img/posts/2015-07-04-finishing-edison-2015-betsson-promotions/GravityOddisee.png"
 featured-author: Eridem
 featured-link: http://eridem.net
 permalink:  finishing-edison-2015-betsson-promotions

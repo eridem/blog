@@ -2,7 +2,7 @@
 layout:     post
 title:      "Stockholm Android Meetup"
 author:     "eridem"
-main-img:   /img/posts/2016-03-25-stockholm-android-meetup/3.jpg
+main-img: img/posts/2016-03-25-stockholm-android-meetup/3.jpg
 permalink:  stockholm-android-meetup
 ---
 

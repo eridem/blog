@@ -2,7 +2,7 @@
 layout:     post
 title:      "Patata.io Slides"
 author:     "eridem"
-main-img:   /img/featured/2016-03-16-patataio-slides.jpg
+main-img: img/featured/2016-03-16-patataio-slides.jpg
 permalink:  patataio-slides
 ---
 
