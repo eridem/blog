@@ -1,6 +1,6 @@
 <div class="markdown-as-html"><h1>Loading markdown...</h1></div>
 
-<script src="{{ site.url }}/{{ site.baseurl }}/js/markdown-it.min.js"></script>
+<script src="{{ site.baseurl }}/js/markdown-it.min.js"></script>
 
 <script>
     console.log('Loading external markdown 2...')
