@@ -12,7 +12,7 @@ During June 2016, I am preparing an event for Kids, which is part of the http://
 
 This is some code that I did as template for the kids.
 
-{% include audio.markdown src="/attachments/sonicpi_gravityfalls.ogg" %}
+{% include audio.markdown src="attachments/sonicpi_gravityfalls.ogg" %}
 
 Code:
 

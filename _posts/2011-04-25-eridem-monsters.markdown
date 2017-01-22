@@ -12,7 +12,7 @@ The project is not released because it needs music, effect, better graphics (and
 
 Song: [Tunguska Chillout Grooves vol. 4 (2009) / RedQuadro – Morning Wave](http://www.jamendo.com/album/55062)
 
-{% include audio.markdown src="/attachments/RedQuadro-Morning-Wave.ogg" %}
+{% include audio.markdown src="attachments/RedQuadro-Morning-Wave.ogg" %}
 
 ![Monsters Gameplay](/img/posts/2011-04-25-eridem-monsters/monsters_title.jpg)
 
