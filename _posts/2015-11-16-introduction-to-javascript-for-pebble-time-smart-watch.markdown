@@ -2,10 +2,7 @@
 layout:     post
 title:      "Introduction to JavaScript for Pebble Time Smart-Watch"
 author:     "eridem"
-#header-img: "img/featured/2015-11-16-introduction-to-javascript-for-pebble-time-smart-watch.jpg"
 main-img: /img/posts/2015-11-16-introduction-to-javascript-for-pebble-time-smart-watch/pebble-buttons-schema.png
-#featured-author: VortexSupernova
-#featured-link: http://vortexsupernova.deviantart.com/
 permalink:  introduction-to-javascript-for-pebble-time-smart-watch
 external: http://blog.loadimpact.com/blog/web-development/javascript-tutorial-for-pebble-time-smartwatch-pebblejs/
 ---

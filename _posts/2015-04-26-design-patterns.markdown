@@ -2,9 +2,9 @@
 layout:     post
 title:      "Design Patterns"
 author:     "eridem"
-#header-img: "img/featured/2015-04-26-design-patterns.jpg"
-#featured-author: Build Azure
-#featured-link: https://buildazure.com
+main-img: "img/featured/2015-04-26-design-patterns.jpg"
+featured-author: Kimmax3110
+featured-link: http://kimmax3110.deviantart.com/
 permalink:  design-patterns
 ---
 

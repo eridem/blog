@@ -2,9 +2,7 @@
 layout:     post
 title:      "TDD, Test Driven Development – Betsson's workshop for KTH"
 author:     "eridem"
-#header-img: "img/featured/2015-05-03-tdd-test-driven-development-betssons-workshop-for-kth.jpg"
-#featured-author: Build Azure
-#featured-link: https://buildazure.com
+main-img: "img/featured/2015-05-03-tdd-test-driven-development-betssons-workshop-for-kth.png"
 permalink:  tdd-test-driven-development-betssons-workshop-for-kth
 ---
 

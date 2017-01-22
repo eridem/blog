@@ -2,9 +2,7 @@
 layout:     post
 title:      "Everything you always wanted to know about Markdown"
 author:     "eridem"
-#header-img: "img/featured/2015-05-28-everything-you-always-wanted-to-know-about-markdown.jpg"
-#featured-author: Build Azure
-#featured-link: https://buildazure.com
+main-img: "img/featured/2015-05-28-everything-you-always-wanted-to-know-about-markdown.jpg"
 permalink:  everything-you-always-wanted-to-know-about-markdown
 ---
 

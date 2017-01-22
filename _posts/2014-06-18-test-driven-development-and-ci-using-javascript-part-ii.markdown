@@ -3,6 +3,7 @@ layout:     post
 title:      "Test Driven Development and CI using JavaScript [Part II]"
 description: "Code Quality"
 author:     "eridem"
+main-img: "img/featured/2014-06-18-test-driven-development-and-ci-using-javascript-part-ii.jpg"
 permalink:  test-driven-development-and-ci-using-javascript-part-ii
 external: http://blog.loadimpact.com/blog/test-driven-development-and-ci-using-javascript-part-ii/
 ---
