@@ -3,7 +3,7 @@ layout:     post
 title:      "Getting the device wallpaper"
 subtitle:   "Android tip #009"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-009-getting-the-device-wallpaper
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

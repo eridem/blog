@@ -8,7 +8,7 @@ layout: default
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="site-heading">
-                    <h1 class="white-black-contrast">{% if page.title %}{{ page.title }}{% else %}<img class="white-black-contrast" style="margin: auto;" src='{{ "/img/eridemab-logo-white.png" | prepend: site.baseurl }}' alt='Eridem' />{% endif %}</h1>
+                    <h1 class="white-black-contrast"><img class="white-black-contrast" style="margin: auto;" src='{{ "/img/eridemab-logo-white.png" | prepend: site.baseurl }}' alt='Eridem' /></h1>
                     <hr class="small">
                     <span class="subheading white-black-contrast">{{ page.description }}</span>
                 </div>
@@ -54,6 +54,11 @@ layout: default
         </div>
 		<div class="col-lg-9 col-md-9 content-sidebar-right">
 			{{ content }}
+            {% if page.featured-author %}
+            <div class="text-right">
+            <span class="featured-text">Featured image by <em><a href="{{page.featured-link}}">{{page.featured-author}}</a></em></span>
+            </div>
+            {% endif %}
 		</div>
 	</div>
 </div>

@@ -2,7 +2,7 @@
 layout:     post
 title:      "ERiDeM Monsters"
 author:     "eridem"
-header-img: "img/featured/2011-04-25-eridem-monsters.jpg"
+main-img: "img/featured/2011-04-25-eridem-monsters.jpg"
 permalink:  eridem-monsters
 ---
 

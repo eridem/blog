@@ -3,7 +3,7 @@ layout:     post
 title:      "Full screen activity/application"
 subtitle:   "Android tip #007"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-007-full-screen-activity-application
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

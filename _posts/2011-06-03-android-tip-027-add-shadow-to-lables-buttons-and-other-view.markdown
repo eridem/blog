@@ -3,7 +3,7 @@ layout:     post
 title:      "Add shadow to labels, buttons and other views"
 subtitle:   "Android tip #027"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-027-add-shadow-to-lables-buttons-and-other-view
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

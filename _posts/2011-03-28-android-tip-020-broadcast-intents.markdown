@@ -3,7 +3,7 @@ layout:     post
 title:      "Broadcast intents"
 subtitle:   "Android tip #020"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-020-broadcast-intents
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

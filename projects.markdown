@@ -1,10 +1,7 @@
 ---
 layout: page
 title: "Projects"
-description: "some of the fun stuff I do"
-header-img: "img/featured/projects.jpg"
-featured-author: TacoSauceNinja
-featured-link: http://tacosauceninja.deviantart.com/
+description: "Projects"
 ---
 
 # Open Source

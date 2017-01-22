@@ -3,7 +3,7 @@ layout:     post
 title:      "Database not open"
 subtitle:   "Android tip #019"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-019-database-not-open
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

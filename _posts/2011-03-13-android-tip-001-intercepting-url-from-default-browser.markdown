@@ -3,7 +3,7 @@ layout:     post
 title:      "Intercepting URL from default browser"
 subtitle:   "Android tip #001"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-001-intercepting-url-from-default-browser
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

@@ -2,7 +2,6 @@
 layout:     post
 title:      "WebAudio tutorial, explained with images"
 author:     "eridem"
-#header-img: "img/featured/2015-08-12-webaudio-tutorial-explained-with-images.jpg"
 main-img: img/featured/2015-08-12-webaudio-tutorial-explained-with-images.jpg
 featured-author: VortexSupernova
 featured-link: http://vortexsupernova.deviantart.com/

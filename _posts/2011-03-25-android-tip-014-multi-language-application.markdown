@@ -3,7 +3,7 @@ layout:     post
 title:      "Multi-language application"
 subtitle:   "Android tip #014"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-014-multi-language-application
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

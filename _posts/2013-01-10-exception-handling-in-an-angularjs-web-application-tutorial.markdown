@@ -2,7 +2,7 @@
 layout:     post
 title:      "Exception Handling in an AngularJS Web Application"
 author:     "eridem"
-header-img: "img/featured/2013-01-10-exception-handling-in-an-angularjs-web-application-tutorial.svg"
+main-img: "img/featured/2013-01-10-exception-handling-in-an-angularjs-web-application-tutorial.svg"
 permalink:  exception-handling-in-an-angularjs-web-application-tutorial
 external: http://blog.loadimpact.com/blog/exception-handling-in-an-angularjs-web-application-tutorial/
 ---

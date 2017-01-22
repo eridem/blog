@@ -3,7 +3,7 @@ layout:     post
 title:      "Launch Activity from a service"
 subtitle:   "Android tip #025"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-025-launch-activity-from-a-service
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

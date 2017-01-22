@@ -2,7 +2,7 @@
 layout:     post
 title:      "Tribute to Metal Mutant"
 author:     "eridem"
-header-img: "img/featured/2015-07-08-tribute-to-metal-mutant.png"
+main-img: "img/featured/2015-07-08-tribute-to-metal-mutant.png"
 featured-author: Eridem
 featured-link: http://eridem.net
 permalink:  tribute-to-metal-mutant

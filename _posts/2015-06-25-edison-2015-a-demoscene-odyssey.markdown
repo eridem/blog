@@ -2,7 +2,7 @@
 layout:     post
 title:      "Edison 2015, A Demoscene Odyssey"
 author:     "eridem"
-header-img: "img/featured/2015-06-25-edison-2015-a-demoscene-odyssey.png"
+main-img: "img/featured/2015-06-25-edison-2015-a-demoscene-odyssey.png"
 featured-author: Edis
 featured-link: http://on.edis.nu
 permalink:  edison-2015-a-demoscene-odyssey

@@ -3,7 +3,7 @@ layout:     post
 title:      "Left and right swipe (gesture events)"
 subtitle:   "Android tip #010"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-010-left-and-right-swipe-gesture-events
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

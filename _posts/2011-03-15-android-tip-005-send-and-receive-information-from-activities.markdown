@@ -3,7 +3,7 @@ layout:     post
 title:      "Send and receive information from Activities"
 subtitle:   "Android tip #005"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-005-send-and-receive-information-from-activities
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

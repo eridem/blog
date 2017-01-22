@@ -3,7 +3,7 @@ layout:     post
 title:      "SSH, execute remote commands with Android"
 subtitle:   "Android tip #021"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-021-ssh-execute-remote-commands-with-android
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

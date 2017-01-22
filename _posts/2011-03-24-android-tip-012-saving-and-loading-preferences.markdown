@@ -3,7 +3,7 @@ layout:     post
 title:      "Saving and loading preferences"
 subtitle:   "Android tip #012"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-012-saving-and-loading-preferences
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

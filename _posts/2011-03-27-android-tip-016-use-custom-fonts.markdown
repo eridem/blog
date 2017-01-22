@@ -3,7 +3,7 @@ layout:     post
 title:      "Use custom fonts"
 subtitle:   "Android tip #016"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  android-tip-016-use-custom-fonts
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

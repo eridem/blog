@@ -3,7 +3,7 @@ layout:     post
 title:      "Cleaning unused Android resources"
 subtitle:   "Cleaning automated"
 author:     "eridem"
-header-img: "img/featured/android_background.jpg"
+main-img: "img/featured/android_background.jpg"
 permalink:  cleaning-unused-android-resources
 featured-author: Psychopulse
 featured-link: http://psychopulse.deviantart.com/

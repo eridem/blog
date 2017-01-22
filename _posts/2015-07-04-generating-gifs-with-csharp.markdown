@@ -2,7 +2,7 @@
 layout:     post
 title:      "Generating GIFs with C#"
 author:     "eridem"
-header-img: "img/posts/2015-07-04-generating-gifs-with-csharp/inc.gif"
+main-img: "img/posts/2015-07-04-generating-gifs-with-csharp/inc.gif"
 featured-author: Eridem
 featured-link: http://eridem.net
 permalink:  generating-gifs-with-csharp

@@ -3,7 +3,7 @@ layout:     post
 title:      "New Blog"
 subtitle:   "because Jekyll blogs are cool."
 author:     "eridem"
-header-img: "img/featured/1984-01-02-new-blog.jpg"
+main-img: "img/featured/1984-01-02-new-blog.jpg"
 permalink:  new-blog
 ---
 
