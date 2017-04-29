@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "postinstall": "gem install jekyll-paginate jekyll-feed wdm || echo 'You may need to follow this guide in Windows: http://jekyll-windows.juthilo.com/1-ruby-and-devkit/'",
     "grunt": "grunt",
     "build": "grunt",
     "serve": "jekyll serve --watch"
