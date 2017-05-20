@@ -1564,7 +1564,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.42857143;
   color: #333;
   word-break: break-all;
@@ -8414,7 +8414,7 @@ pre {
   display: block;
   padding: 10px;
   margin: 0 0 10.5px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
@@ -15356,13 +15356,14 @@ a.list-group-item-danger.active:focus {
 }
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
-  color: #404040;
+  font-size: 15px;
+  color: #555555;
   background-color: #eaeaea;
+  font-family: "Open Sans", sans-serif;
 }
 p {
-  line-height: 1.5;
-  margin: 30px 0;
+  line-height: 1.84;
+  margin: 15px 0;
 }
 p a {
   text-decoration: underline;
@@ -15374,10 +15375,10 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
-  color: #404040;
+  color: #555555;
 }
 a:hover,
 a:focus {
@@ -15463,14 +15464,14 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #555555;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #555555;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -15506,7 +15507,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 75px 0;
+    padding: 45px 0;
   }
 }
 .intro-header .site-heading,
@@ -15573,6 +15574,9 @@ hr.small {
   font-style: italic;
   color: #404040;
 }
+.post-preview {
+  margin-bottom: 55px;
+}
 .post-preview .post-image {
   background-color: #33363B;
 }
@@ -15580,13 +15584,13 @@ hr.small {
   margin-left: -15px;
   margin-top: -1px;
   margin-right: -16px;
-  height: 350px;
+  height: 470px;
 }
 .post-preview.col-md-6 > a > .post-image {
   height: 225px;
 }
 .post-preview > a {
-  color: #404040;
+  color: #555555;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -15601,8 +15605,11 @@ hr.small {
 .post-preview > a > .post-title {
   color: #444444;
   font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  line-height: 31px;
+  font-weight: 800;
 }
 .post-preview > a > .post-subtitle {
   color: #444444;
@@ -15618,7 +15625,7 @@ hr.small {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #555555;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -15753,7 +15760,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: #555555;
   cursor: not-allowed;
 }
 ::-moz-selection {
@@ -15834,6 +15841,12 @@ body {
   margin-top: 10px;
   text-align: right;
 }
+.content-sidebar-left h3 {
+  font-size: 17px;
+}
+.content-sidebar-left p {
+  font-size: 14px;
+}
 .content-sidebar-left .github-calendar .calendar-graph {
   overflow: hidden;
 }
@@ -15852,6 +15865,7 @@ body {
 .content-sidebar-left .github-calendar p {
   text-align: center;
   color: #808080;
+  font-size: 14px;
 }
 .content-sidebar-left .github-calendar .contrib-column-first {
   display: table-cell;
@@ -15864,14 +15878,27 @@ body {
   color: #808080;
 }
 .content-sidebar-left .github-calendar .contrib-column-first > .contrib-number {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
 }
 .content-sidebar-left .github-calendar .contrib-column-first > .text-muted {
   color: #808080;
   display: block;
-  font-size: 17px;
+  font-size: 14px;
 }
 .social-on-brand:hover {
   background-color: #090909 !important;
+}
+.content-sidebar-right li > a {
+  text-decoration: underline;
+}
+.content-sidebar-right h2:first-child {
+  margin-top: 14px;
+}
+.content-sidebar-right h2 {
+  color: #555555;
+  margin-top: 34px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 1.3;
 }

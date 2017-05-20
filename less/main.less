@@ -7,15 +7,16 @@
 // Global Components
 body {
     .serif;
-    font-size: 20px;
+    font-size: 15px;
     color: @gray-dark;
     background-color: @page-background-color;
+    font-family: "Open Sans", sans-serif;
 }
 
 // -- Typography
 p {
-    line-height: 1.5;
-    margin: 30px 0;
+    line-height: 1.84;
+    margin: 15px 0;
     a {
         text-decoration: underline;
     }
@@ -28,7 +29,7 @@ h4,
 h5,
 h6 {
     .sans-serif;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 a {
@@ -172,7 +173,7 @@ hr.small {
         padding: 100px 0 50px;
         color: white;
         @media only screen and (min-width: 768px) {
-            padding: 75px 0;
+            padding: 45px 0;
         }
     }
     .site-heading,
@@ -244,6 +245,8 @@ hr.small {
 
 // Post Preview Pages
 .post-preview {
+    margin-bottom: 55px;
+
     .post-image {
         background-color: #33363B;
     }
@@ -254,7 +257,7 @@ hr.small {
                 margin-left: -15px;
                 margin-top: -1px;
                 margin-right: -16px;
-                height: 350px;
+                height: 470px;
             }
         }
     }
@@ -280,8 +283,11 @@ hr.small {
         >.post-title {
             color: @post-title-color;
             font-size: 30px;
-            margin-top: 30px;
-            margin-bottom: 10px;
+            margin-top: 8px;
+            margin-bottom: 0px;
+            border-bottom: 0px;
+            line-height: 31px;
+            font-weight: 800;
         }
         >.post-subtitle {
             color: @post-title-color;
@@ -554,6 +560,14 @@ body {
     margin-top: 10px;
     text-align: right;
 }
+.content-sidebar-left {
+    h3 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
 
 .content-sidebar-left .github-calendar {
     .calendar-graph {
@@ -567,6 +581,7 @@ body {
     .contrib-footer {
         display: none;
     }
+
     .table-column {
         padding-right: 0;
         padding-left: 0;
@@ -574,6 +589,7 @@ body {
     p {
         text-align: center;
         color: #808080;
+        font-size: 14px;
     }
     .contrib-column-first {
         display: table-cell;
@@ -585,17 +601,33 @@ body {
             color: #808080;
         }
         >.contrib-number {
-            font-size: 25px;
+            font-size: 15px;
             font-weight: bold;
         }
         >.text-muted {
             color: #808080;
             display: block;
-            font-size: 17px;
+            font-size: 14px;
         }
     }
 }
 
 .social-on-brand:hover {
     background-color: #090909 !important;
+}
+
+.content-sidebar-right li > a {
+    text-decoration: underline;
+}
+
+.content-sidebar-right h2:first-child {
+    margin-top: 14px;
+}
+
+.content-sidebar-right h2 {
+    color: #555555;
+    margin-top: 34px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 1.3;
 }
