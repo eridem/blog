@@ -1,8 +1,6 @@
 # http://eridem.net
 
-[Eridem's blog](http://eridem.net).
-
-Currently under migration.
+Code for the blog <http://eridem.net>.
 
 ## Licenses
 
