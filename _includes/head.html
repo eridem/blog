@@ -3,9 +3,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="copyright" content="{{ site.copyright }}" />
 
-    <title>{% if page.title %}{{ page.title }} - Eridem{% else %}Eridem{% endif %}</title>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:image" content="{{ prepend: site.baseurl | prepend: site.url }}/{{ page.main-img }}" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     {% if page.external %}
     <link rel="canonical" href="{{ page.external }}" />
@@ -33,13 +43,6 @@
     <![endif]-->
 
     {% feed_meta %}
-
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="{{ "/img/favicon/apple-icon-57x57.png" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ "/img/favicon/apple-icon-60x60.png" | prepend: site.baseurl }}">
