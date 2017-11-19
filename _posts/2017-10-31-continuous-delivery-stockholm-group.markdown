@@ -23,5 +23,5 @@ You can download the original presentation from [here](https://github.com/eridem
   scrolling="no">
 </iframe>
 
-![img/posts/2017-11-31-continuous-delivery-stockholm-group/01.jpg](img/posts/2017-11-31-continuous-delivery-stockholm-group/01.jpg)
-![img/posts/2017-11-31-continuous-delivery-stockholm-group/02.jpg](img/posts/2017-11-31-continuous-delivery-stockholm-group/02.jpg)
+![img/posts/2017-10-31-continuous-delivery-stockholm-group/01.jpg](img/posts/2017-10-31-continuous-delivery-stockholm-group/01.jpg)
+![img/posts/2017-10-31-continuous-delivery-stockholm-group/02.jpg](img/posts/2017-10-31-continuous-delivery-stockholm-group/02.jpg)
