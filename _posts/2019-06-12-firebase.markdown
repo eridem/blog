@@ -1,0 +1,214 @@
+---
+layout:     post
+title:      "Firebase from the Platform Perspective"
+author:     "eridem"
+main-img:   img/featured/________.jpg
+permalink:  firebase-in-the-platform-perspective
+comments: true
+---
+
+Recently I've working in a new-from-scratch project. The project was a simple page with few small services that was going to be appended to a bigger website.
+
+Due our company is using Google Cloud Platform, I am being studying the stack of their services that could help me to deliver this project. After checking which services were more convenience for this project, I decided to go for Firebase: easy to develop, has different options to deploy, can log and monitoring and abstracts infrastructure.
+
+I had several years experienced with IaaS (Infrastructure as a Service) and PaaS (Platform as a Service). Working in those teams and setting everything up. But revising closely what Cloud services as AWS, Azure and Google offers, I am being thinking if Platform and Infrastructure teams are over-engineering the solutions to keep running a product.
+
+If services like Google Cloud Platform (`GCP` from now on) allows you to abstract Infrastructure and Platform, aren't we creating redundant solutions in our company? Are we creating Platform of Platform?
+
+```PaaS(PaaS)?```
+
+## Creating a Hello World web application covering Platform aspects
+
+This article try to cover Platform aspect applied to a Web+Microservices project using Firebase as start point.
+
+| | | | |
+|-|-|-|-|
+| [Development](#development) | CI/CD | Testing | [Deployment and Environments](#deployment-and-environments)
+| [Rollbacks](#rollbacks) | [Promotions](#promotions) | [Blue/Green releases](#blue-green-releases) | [Logging](#logging)
+| [Monitoring and Alerts](#monitoring-and-alerts) | [A/B Testing](#a-b-testing) | [Configuration and Secrets](#configuration-and-secrets) | [Pricing and billing](#pricing-and-billing)
+
+
+## Pre-requisites
+
+1. You have the following tools (Instructions only for MacOS):
+   ```bash
+   # Brew
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+   # NVM
+   brew install nvm
+
+   # Node.js 8.0
+   nvm install 8.0
+   nvm use 8.0
+  
+   # GCP CLI and Firebase CLI
+   brew cask install google-cloud-sdk
+   npm i -g firebase-tools
+   ```
+1. You have a `GCP` account. You create the following projects:
+   ```bash
+   # Login with GCP and Firebase
+   gcloud auth login
+   firebase login
+
+   # Create projects for this tutorial
+   gcloud projects create 'mycompany-test-myproduct'
+   gcloud projects create 'mycompany-prod-myproduct'
+   ```
+
+## Development
+
+### Preparations
+
+This article will focus on Platform perspective, so we will create the minimal project that allow us to understand as much as possible the Platform aspects.
+
+```bash
+# Create folder for the project
+mkdir 'firebase-demo'
+cd 'firebase-demo'
+
+# Init the project
+npm init
+
+# Init and bind the project to Firebase
+npm run firebase login
+npm run firebase init
+  # > Choose "Hosting" and "Functions" options
+  # > Choose your Firebase Project ("firebase-demo")
+  # > Keep the rest of options by default
+```
+
+### Web Frontend and Node.js backend
+
+We will create and HTTP endpoint called `cheers` using `Cloud Functions`. Paste the following content in `./functions/index.js`:
+
+```javascript
+const functions = require('firebase-functions');
+
+exports.cheers = functions.https.onRequest((request, response) => {
+ response.send("Hello World!");
+});
+```
+
+We will create a small website that calls to the previous endpoint and show the result inside a `<div>` element. Paste the following content in `./public/index.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firebase Demo</title>
+    <script defer src="/__/firebase/6.1.1/firebase-app.js"></script>
+  </head>
+  <body>
+    <div>Message from Cloud Function:</div>
+    <div id="apiMessage"></div>
+
+    <script>
+      // Call to endpoint and print the result
+      (function() {
+        let xmlHttp = new XMLHttpRequest()
+        xmlHttp.open('GET', '/api/cheers', false)
+        xmlHttp.send(null)
+        document.getElementById('apiMessage').innerHTML = xmlHttp.responseText
+      })()
+    </script>
+  </body>
+</html>
+```
+
+Because `Hosting` and `Cloud Functions` are listening from different domains/ports, we will need to map the endpoints so the can be reached from the website. We use `rewrites`. Open the file `./firebase.json` and add the following node inside the `hosting` node:
+
+```json
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "cheers"
+      }
+    ]
+```
+
+When calling to `/api/cheers` from our website, Firebase will call directly to the mapped `Cloud Function` "`cheers`". This is convenient when testing in local and/or we have multiple environments.
+
+### Debugging
+
+To finallize, let's add some useful scripts in our `./package.json`:
+
+```json
+{
+  "scripts" : {
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  }
+}
+```
+
+Now that we have everything connected, let's run the website:
+
+```bash
+npm run start
+```
+
+## Deployment and Environments
+
+Deployment with Firebase is pretty simple using their CLI tool.
+
+```bash
+# Deploy all services included in the project.
+# In this case, "Hosting" and "Cloud Functions"
+firebase deploy
+firebase deploy -m "1.0.0" # With a message
+
+# Deploy specific services
+firebase deploy --only function
+firebase deploy --only hosting
+
+# Deploy specific Cloud Functions
+firebase deploy --only functions:cheers
+```
+
+It is possible to deploy in other ways, using `Rules`, `Groups of Functions`, etc. But this depends and complexity of our projects and how we organize them (monorepos, multirepos, microservices, monoliths). This way should be enough to prove the capabilities on deployments.
+
+### Deployments in Environments
+
+What if we want to have more than one environments? We can create different `GCP` projects and switch between them:
+
+```bash
+firebase use '<project_id>'
+
+# Example
+firebase use 'test-firebase-demo'
+firebase deploy # It will deploy in 'test-firebase-demo'
+```
+
+There are other "messy" ways to do this, for example using targets, but it is recommended to use different projects, due they could be adjusted to our `IAM` policies and other security measures.
+
+## Promotions
+
+With promotions we can move what has been deployed in one environment and move to the next one. For instance, what is on the `test-firebase-demo` environment, move it to `firebase-demo`.
+
+When having our own infrastructure (local or cloud based) this could be a bit trickly, due we need to understand if anything in the specific environment has change, such as JVM versions, environment variable changes and other environment changes we had to do while developing the next version. Essentially, what the new machines needs to run the new version.
+
+Using `Firebase` this is not a problem anymore, due all environments are configured in the same way. We have a sandbox to add our code and being released in one GCP project will applies to the next one.
+
+In the next chapters, we will talk about `Configurations` and `Secrets`, which will be part of the deployment of a product.
+
+To sum up, if we `tag` our source code: `Hosting` and `Cloud Functions` we should be able to release without consequences.
+
+## Rollbacks
+
+
+
+## Troubleshooting
+
+- If getting an error running `Cloud Functions` similar to this:
+  ```plain
+  Error: Failed to read credentials from file /Users/_USER_/documents/vault/config/gcloud-credentials.json: Error: ENOENT: no such file or directory, open '/Users/_USER_/documents/vault/config/gcloud-credentials.json'
+  ```
+  Then, run the following commands:
+  ```bash
+  unset 'GOOGLE_APPLICATION_CREDENTIALS'
+  firebase login
+  ```
