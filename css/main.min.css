@@ -13877,6 +13877,9 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #333333;
 }
+.post-image > img {
+  width: 100%;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('../fonts/icomoon.eot?1j3z1s');
@@ -15598,10 +15601,6 @@ hr.small {
   margin-left: -15px;
   margin-top: -1px;
   margin-right: -16px;
-  height: 470px;
-}
-.post-preview.col-md-6 > a > .post-image {
-  height: 225px;
 }
 .post-preview > a {
   color: #555555;
