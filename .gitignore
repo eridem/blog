@@ -3,3 +3,4 @@ node_modules
 Gemfile.lock
 Thumbs.db
 .DS_Store
+.jekyll-cache
