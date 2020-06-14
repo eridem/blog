@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "10 GIT tips that will improve your CI/CD pipelines"
+author:     "eridem"
+main-img:   img/featured/2017-11-19-multistage-builds-for-nodejs.jpg
+permalink:  multistage-builds-for-nodejs
+comments: true
+---
+
+## Getting the last tag
+
+```sh
+git fetch --tags &> /dev/null
+LATEST_TAG=$(git tag | sort --version-sort | tail -n1)
+```
+
+## Split major, minor and patch versions
+
+```sh
+# Version can have the 'v' prefix or not
+VERSION_TAG="v1.2.3"
+
+MAJOR=$(tr '.' '\n' <<< "$VERSION_TAG" | head -n1 | tail -n1)
+MAJOR=${MAJOR/v/}
+MINOR=$(tr '.' '\n' <<< "$VERSION_TAG" | head -n1 | tail -n2)
+PATCH=$(tr '.' '\n' <<< "$VERSION_TAG" | head -n1 | tail -n2)
+
+echo "Major: $MAJOR, Minor: $MINOR, Patch: $PATCH"
+```
+
+## Obtain the logs between two tags
+
+```sh
+PREVIOUS_TAG="1.1.1"
+NEWEST_TAG="2.2.2"
+
+LOG=$(git log --pretty=format:"%s" "$PREVIOUS_TAG..$NEWEST_TAG")
+```
+
+## Getting current branch and hash
+
+```sh
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+CURRENT_HASH=$(git log -1 --pretty=format:%h)
+```
