@@ -2,8 +2,8 @@
 layout:     post
 title:      "Versions/Bumping/Changelog script tips for your CI/CD pipelines"
 author:     "eridem"
-main-img:   img/featured/2017-11-19-multistage-builds-for-nodejs.jpg
-permalink:  multistage-builds-for-nodejs
+main-img:   img/featured/2020-06-14-version-bumping-changelog-script-tips-for-your-ci-cd-pipelines.jpg
+permalink:  version-bumping-changelog-script-tips-for-your-ci-cd-pipelines
 comments: true
 ---
 
