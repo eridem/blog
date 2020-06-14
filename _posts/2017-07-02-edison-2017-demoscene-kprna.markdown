@@ -2,7 +2,7 @@
 layout:     post
 title:      "Edison 2017, Demoscene by KpRñA"
 author:     "eridem"
-main-img:   img/featured/2017-07-02-edison-2017-demoscene-kprna.png
+main-img:   img/featured/2017-07-02-edison-2017-demoscene-kprna.jpg
 permalink:  edison-2017-demoscene-kprna
 ---
 

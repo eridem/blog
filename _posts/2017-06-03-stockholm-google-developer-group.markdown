@@ -21,4 +21,4 @@ You can download the original presentation and get the examples from here: <http
   scrolling="no">
 </iframe>
 
-![img/featured/2017-06-03-stockholm-google-developer-group.jpg](img/featured/2017-06-03-stockholm-google-developer-group.jpg)
+![img/posts/2017-06-03-stockholm-google-developer-group/2017-06-03-stockholm-google-developer-group.jpg](img/posts/2017-06-03-stockholm-google-developer-group/2017-06-03-stockholm-google-developer-group.jpg)
