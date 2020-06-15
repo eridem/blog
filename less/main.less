@@ -247,7 +247,14 @@ hr.small {
 
 // Post Preview Pages
 .post-preview {
-    margin-bottom: 55px;
+
+    &.col-md-12 {
+        margin-bottom: 0px;
+    }
+
+    &.col-md-6 {
+        margin-bottom: 64px;
+    }
 
     .post-image {
         background-color: #33363B;
@@ -259,14 +266,6 @@ hr.small {
                 margin-left: -15px;
                 margin-top: -1px;
                 margin-right: -16px;
-                //height: 470px;
-            }
-        }
-    }
-    &.col-md-6 {
-        >a {
-            >.post-image {
-                //height: 225px;
             }
         }
     }

@@ -15591,8 +15591,11 @@ hr.small {
   font-style: italic;
   color: #404040;
 }
-.post-preview {
-  margin-bottom: 55px;
+.post-preview.col-md-12 {
+  margin-bottom: 0px;
+}
+.post-preview.col-md-6 {
+  margin-bottom: 64px;
 }
 .post-preview .post-image {
   background-color: #33363B;
