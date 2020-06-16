@@ -3,10 +3,8 @@ layout:     post
 title:      "Sync two ScrollLayouts when scroll"
 subtitle:   "Android tip #028"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-028-sync-two-scrolllayouts-when-scroll
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 If we need to scroll two `ScrollLayout` at the same time we can create a new `View` that implements the standard `ScrollView` in order to create a listener which allow us to know when this one is scrolling and modify the behavior of the other (or maybe because we want to know about the scroll behavior).

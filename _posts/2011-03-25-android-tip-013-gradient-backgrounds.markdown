@@ -3,10 +3,8 @@ layout:     post
 title:      "Gradient backgrounds"
 subtitle:   "Android tip #013"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-013-gradient-backgrounds
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We can create easily backgrounds with XML drawables. In this example, we will create a new resource on the folder `drawables` that will contain a gradient and we will apply it to one of our layouts.

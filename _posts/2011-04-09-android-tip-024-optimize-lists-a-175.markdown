@@ -3,10 +3,8 @@ layout:     post
 title:      "Optimize lists a 175%"
 subtitle:   "Android tip #024"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-024-optimize-lists-a-175
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 two operations are expensive when we create custom lists: `Inflate` (covered on the tip 23) and `findByViewId(int)`. We can avoid call to this second operation saving the views used for every row in a wrapper.

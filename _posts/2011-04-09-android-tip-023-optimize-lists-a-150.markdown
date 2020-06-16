@@ -3,10 +3,8 @@ layout:     post
 title:      "Optimize lists a 150%"
 subtitle:   "Android tip #023"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-023-optimize-lists-a-150
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We can optimize the `Adapters` attached to a `ListView` inflating our custom layouts when it is necessary. This process is easy to implement with only one condition (Android will managed the rest of the work).

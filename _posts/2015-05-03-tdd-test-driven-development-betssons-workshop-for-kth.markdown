@@ -2,7 +2,7 @@
 layout:     post
 title:      "TDD, Test Driven Development – Betsson's workshop for KTH"
 author:     "eridem"
-main-img: "img/featured/2015-05-03-tdd-test-driven-development-betssons-workshop-for-kth.png"
+main-img: "img/featured/2015-05-03-tdd-test-driven-development-betssons-workshop-for-kth.jpg"
 permalink:  tdd-test-driven-development-betssons-workshop-for-kth
 ---
 

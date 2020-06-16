@@ -3,10 +3,8 @@ layout:     post
 title:      "Update user interface from a thread"
 subtitle:   "Android tip #011"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-011-update-user-interface-from-a-thread
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 With the class `Handler`, you can throw a Runnable class (a intended to be executed by a thread) and furthermore, you can update the user interface. On this code, we implements Runnable in our own `Activity` and we override the method run.

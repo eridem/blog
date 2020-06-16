@@ -3,10 +3,8 @@ layout:     post
 title:      "Intercepting URL from default browser"
 subtitle:   "Android tip #001"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-001-intercepting-url-from-default-browser
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 This code intercepts an URL opened from the default Internet browser in Android and it is sent to your application. Using this code, you are able to use the URL for your own proposes. The user will be informed that your application can be used to open the link.

@@ -3,10 +3,8 @@ layout:     post
 title:      "Broadcast intents"
 subtitle:   "Android tip #020"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-020-broadcast-intents
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We can send broadcast messages *- `Intents` -* in our application. They can be useful when we need to comunicate Activities with other Activities, Services with Activities and so on. It is a good way to send and listen messages in the whole application.

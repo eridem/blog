@@ -3,10 +3,8 @@ layout:     post
 title:      "Getting application version and other package information"
 subtitle:   "Android tip #008"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-008-getting-application-version-and-other-package-information
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 This code gets the version that you used in your `ManifestFile.xml` and save it in a String (in order to use it for your own proposes, for instance, a About screen). Furthermore, you can use the PackageInfo class to get other application information.

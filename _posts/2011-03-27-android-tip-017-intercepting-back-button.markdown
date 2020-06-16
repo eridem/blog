@@ -3,10 +3,8 @@ layout:     post
 title:      "Intercepting back button"
 subtitle:   "Android tip #017"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-017-intercepting-back-button
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 In order to intercept the *BACK* button and other buttons (without include *HOME* button), we need to override the method `dispatchKeyEvent` in our `Activity`. Another way to do that is overriding the method `onBackButton()`.

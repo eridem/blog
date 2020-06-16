@@ -3,10 +3,8 @@ layout:     post
 title:      "SSH, execute remote commands with Android"
 subtitle:   "Android tip #021"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-021-ssh-execute-remote-commands-with-android
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We need to download the [JSCH](http://www.jcraft.com/jsch/) libraries and [JZLIB](http://www.jcraft.com/jzlib/) libraries that we can get directly on here:
