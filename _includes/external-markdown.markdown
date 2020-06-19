@@ -1,4 +1,4 @@
-<div class="markdown-as-html"><h1>Loading markdown...</h1></div>
+<div class="markdown-as-html"></div>
 
 <script src="{{ site.baseurl }}/js/markdown-it.min.js"></script>
 
@@ -10,6 +10,10 @@
         var html      = converter.render(text);
         var target = document.getElementsByClassName('markdown-as-html')[0];
         target.innerHTML = html;
+        let postHeader = target.firstChild;
+        if (postHeader.nodeName === "H1") {
+            postHeader.remove();
+        }
         $("img").addClass("img-responsive").each(function() {
             var img = $(this);
             var src = img.attr('src');
@@ -18,6 +22,7 @@
                 img.attr('src', newUrl);
             }
         })
+
     };
     oReq.open('GET', '{{ include.url }}', true);
     oReq.send();
