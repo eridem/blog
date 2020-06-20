@@ -6,19 +6,18 @@
 @import "icons.less";
 // Global Components
 body {
-    .serif;
-    font-size: 15px;
+    .content-font;
+    font-size: 17px;
+    letter-spacing: -0.003em;
     color: @gray-dark;
     background-color: @page-background-color;
-    font-family: "Open Sans", sans-serif;
 }
 
 // -- Typography
 p {
-    line-height: 1.84;
     margin: 15px 0;
     a {
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -28,8 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    .sans-serif;
-    font-weight: 500;
+    .header-font;
 }
 
 a {
@@ -617,18 +615,30 @@ body {
     background-color: #090909 !important;
 }
 
-.content-sidebar-right li > a {
-    text-decoration: underline;
-}
+.content-sidebar-right {
+    padding-top: 16px;
 
-.content-sidebar-right h2:first-child {
-    margin-top: 14px;
-}
+    h2:first-child {
+        margin-top: 14px;
+    }
 
-.content-sidebar-right h2 {
-    color: #555555;
-    margin-top: 34px;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #CCCCCC;
-    line-height: 1.3;
+    h2 {
+        .header-font;
+        margin-top: 34px;
+        margin-bottom: 17px;
+        border-bottom: 1px solid #eaecef;
+    }
+    
+    li > a {
+        text-decoration: none;
+        color: #0366d6;
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    b, strong {
+        font-weight: 600;
+    }
 }

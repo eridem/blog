@@ -4,7 +4,7 @@ title:      "Multistage builds for NodeJS"
 author:     "eridem"
 main-img:   img/featured/2017-11-19-multistage-builds-for-nodejs.jpg
 permalink:  multistage-builds-for-nodejs
-comments: true
+comments:   false
 ---
 
 With the new functionlity appear in **Docker 17.05**, we can have multistage builds in our Node application.
