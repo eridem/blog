@@ -9,7 +9,7 @@ comments: true
 
 ## Getting the last tag
 
-Play with tags means, in most of the cases, play with releases (production or beta ones). 
+Playing with tags means, in most cases, playing with releases, be it production or beta ones. 
 
 Some reasons:
 
@@ -50,14 +50,14 @@ echo "Major: [$MAJOR], Minor: [$MINOR], Patch: [$PATCH]"
 
 ## Obtain the logs between two tags or branches
 
-We can obtain the logs between two tags with GIT, in a pretty format.
+We can obtain the logs between two tags in a pretty format with GIT.
 
 Some reasons:
 
 - Create documentation based on the difference between two releases.
-- Use it as changelog on your beta system.
+- Use it as a changelog on your beta system.
 - Inform your testers or stakeholders about changes.
-- Use it to filter comments and triggers other procedures. 
+- Use it to filter comments and trigger other procedures. 
 
 ```sh
 FROM="1.0.0"
@@ -75,12 +75,12 @@ echo "$CHANGELOG"
 
 ## Do replacements on the log for better documentation
 
-We may want to do changes on the logs, for documenting proposes.
+We may want to modify logs, for documentation proposes.
 
 Some reasons:
 
 - Human readable logs.
-- Replace log words with other ones:
+- Replace log words with different ones:
   - Use emojis on the log and words on the changelog.
   - Use keywords on the log and words on the changelog.
 - Remove unnecesary logs from the documentation:
@@ -107,7 +107,7 @@ done
 
 ## Getting current branch
 
-Usually our CI will let us know, with an environment variable, in which branch, tag and hash we are. Although, if we get lost on the way, we can use the following commands:
+Usually our CI will let us know (with an environment variable) which branch, tag and hash we are using. Although, if we get lost on the way, we can use the following commands:
 
 ```sh
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
