@@ -2,7 +2,7 @@
 layout:     post
 title:      "Deploying Microservices Transparently in Clusters with Docker and Nomad"
 author:     "eridem"
-main-img:   "img/featured/2017-04-29-deploying-microservices-transparently-in-clusters-with-docker-and-nomad.jpg"
+featured-image:   "img/featured/2017-04-29-deploying-microservices-transparently-in-clusters-with-docker-and-nomad.jpg"
 permalink:  deploying-microservices-transparently-in-clusters-with-docker-and-nomad
 ---
 

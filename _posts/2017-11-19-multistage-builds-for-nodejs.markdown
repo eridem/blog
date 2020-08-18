@@ -2,7 +2,7 @@
 layout:     post
 title:      "Multistage builds for NodeJS"
 author:     "eridem"
-main-img:   img/featured/2017-11-19-multistage-builds-for-nodejs.jpg
+featured-image:   img/featured/2017-11-19-multistage-builds-for-nodejs.jpg
 permalink:  multistage-builds-for-nodejs
 comments:   false
 ---

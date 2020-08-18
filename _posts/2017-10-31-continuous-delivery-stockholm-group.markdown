@@ -2,7 +2,7 @@
 layout:     post
 title:      "Continuous Delivery Stockholm Group"
 author:     "eridem"
-main-img:   img/featured/2017-10-31-continuous-delivery-stockholm-group.jpg
+featured-image:   img/featured/2017-10-31-continuous-delivery-stockholm-group.jpg
 permalink:  continuous-delivery-stockholm-group
 ---
 

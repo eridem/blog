@@ -54,16 +54,6 @@ layout: default
         </div>
 		<div class="col-lg-9 col-md-9 content-sidebar-right">
 			{{ content }}
-            {% if page.featured-author %}
-            <div class="text-right">
-            <span class="featured-text">Featured image by <em><a href="{{page.featured-link}}">{{page.featured-author}}</a></em></span>
-            </div>
-            {% endif %}
 		</div>
 	</div>
-</div>
-<div class="container text-right">
-    {% if page.featured-author %}
-    <span class="page-featured-text">Featured image by <em><a href="{{page.featured-link}}">{{page.featured-author}}</a></em></span>
-    {% endif %}
 </div>

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Gulp.js, the power of automating tasks"
 author:     "eridem"
-main-img: img/featured/2016-04-04-gulpjs-the-power-of-automating-tasks.jpg
+featured-image: img/featured/2016-04-04-gulpjs-the-power-of-automating-tasks.jpg
 permalink:  gulpjs-the-power-of-automating-tasks
 ---
 

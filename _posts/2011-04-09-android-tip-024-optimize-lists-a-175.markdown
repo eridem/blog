@@ -3,7 +3,7 @@ layout:     post
 title:      "Optimize lists a 175%"
 subtitle:   "Android tip #024"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-024-optimize-lists-a-175
 ---
 

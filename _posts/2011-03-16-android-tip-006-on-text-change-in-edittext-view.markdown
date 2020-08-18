@@ -3,7 +3,7 @@ layout:     post
 title:      "On text change in EditText view"
 subtitle:   "Android tip #006"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-006-on-text-change-in-edittext-view
 ---
 

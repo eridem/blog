@@ -3,7 +3,7 @@ layout:     post
 title:      "Intercepting back button"
 subtitle:   "Android tip #017"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-017-intercepting-back-button
 ---
 

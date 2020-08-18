@@ -3,7 +3,7 @@ layout:     post
 title:      "Saving and loading preferences"
 subtitle:   "Android tip #012"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-012-saving-and-loading-preferences
 ---
 

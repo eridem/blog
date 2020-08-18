@@ -3,7 +3,7 @@ layout:     post
 title:      "Database not open"
 subtitle:   "Android tip #019"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-019-database-not-open
 ---
 

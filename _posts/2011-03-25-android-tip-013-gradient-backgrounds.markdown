@@ -3,7 +3,7 @@ layout:     post
 title:      "Gradient backgrounds"
 subtitle:   "Android tip #013"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-013-gradient-backgrounds
 ---
 

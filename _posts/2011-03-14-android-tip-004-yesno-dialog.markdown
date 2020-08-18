@@ -3,7 +3,7 @@ layout:     post
 title:      "Yes/No dialog"
 subtitle:   "Android tip #004"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-004-yesno-dialog
 ---
 

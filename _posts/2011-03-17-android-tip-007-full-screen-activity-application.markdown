@@ -3,7 +3,7 @@ layout:     post
 title:      "Full screen activity/application"
 subtitle:   "Android tip #007"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-007-full-screen-activity-application
 ---
 

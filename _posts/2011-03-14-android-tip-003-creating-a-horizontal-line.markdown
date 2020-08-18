@@ -3,7 +3,7 @@ layout:     post
 title:      "Creating a horizontal line"
 subtitle:   "Android tip #003"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-003-creating-a-horizontal-line
 ---
 

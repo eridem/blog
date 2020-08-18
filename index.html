@@ -16,7 +16,7 @@ header-img: ""
             {% if (post.header-img) %}
             <div class="post-image"><img src="{{ post.header-img  | prepend: site.baseurl }}" /></div>
             {% else %}
-            <div class="post-image"><img src="{{ post.main-img }}" /></div>
+            <div class="post-image"><img src="{{ post.featured-image }}" /></div>
             {% endif %}
         </a>
 

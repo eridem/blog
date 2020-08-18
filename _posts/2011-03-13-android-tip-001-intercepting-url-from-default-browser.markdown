@@ -3,7 +3,7 @@ layout:     post
 title:      "Intercepting URL from default browser"
 subtitle:   "Android tip #001"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-001-intercepting-url-from-default-browser
 ---
 

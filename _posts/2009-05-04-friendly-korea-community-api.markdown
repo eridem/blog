@@ -3,7 +3,7 @@ layout:     post
 title:      "Friendly Korea Community API"
 subtitle:   "When scraping is used to create APIs"
 author:     "eridem"
-main-img: "img/featured/2009-05-04-friendly-korea-community-api.jpg"
+featured-image: "img/featured/2009-05-04-friendly-korea-community-api.jpg"
 permalink:  friendly-korea-community-api
 ---
 

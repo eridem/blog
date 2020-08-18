@@ -3,7 +3,7 @@ layout:     post
 title:      "Resize layout on show/hide keyboard"
 subtitle:   "Android tip #018"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-018-resize-layout-on-showhide-keyboard
 ---
 

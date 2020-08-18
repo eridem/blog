@@ -3,7 +3,7 @@ layout:     post
 title:      "Getting the device wallpaper"
 subtitle:   "Android tip #009"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-009-getting-the-device-wallpaper
 ---
 

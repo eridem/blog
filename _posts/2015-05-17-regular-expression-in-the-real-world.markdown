@@ -2,7 +2,7 @@
 layout:     post
 title:      "Regular Expression in the Real World"
 author:     "eridem"
-main-img: "img/featured/2015-05-17-regular-expression-in-the-real-world.jpg"
+featured-image: "img/featured/2015-05-17-regular-expression-in-the-real-world.jpg"
 permalink:  regular-expression-in-the-real-world
 external: http://blog.loadimpact.com/blog/regular-expression-in-the-real-world/
 ---

@@ -2,10 +2,8 @@
 layout:     post
 title:      "Quick start with Hashicorp Terraform, infrastructure as code"
 author:     "eridem"
-main-img:   img/featured/2017-09-17-quick-start-with-hashicorp-terraform-infrastructre-as-code.jpg
+featured-image:   img/featured/2017-09-17-quick-start-with-hashicorp-terraform-infrastructre-as-code.jpg
 permalink:  infrastructure-as-code-replace-custom-terminal-scripts-and-uis
-featured-author: NASA Earth Observatory
-featured-link: https://www.flickr.com/photos/nasamarshall/
 ---
 
 *Terraform* emerged as a tool to define infrastructure as code. You can define resources that your infrastructure needs from a single server to entire local or cloud datacenters.

@@ -2,7 +2,7 @@
 layout:     post
 title:      "HockeyApp API Wrapper module for NPM"
 author:     "eridem"
-main-img: img/featured/2016-02-28-hockeyapp-api-wrapper-module-for-npm.jpg
+featured-image: img/featured/2016-02-28-hockeyapp-api-wrapper-module-for-npm.jpg
 permalink:  hockeyapp-api-wrapper-module-for-npm
 ---
 

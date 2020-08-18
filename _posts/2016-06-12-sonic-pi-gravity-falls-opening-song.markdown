@@ -2,9 +2,7 @@
 layout:     post
 title:      "Sonic Pi, Gravity Falls opening song"
 author:     "eridem"
-main-img: img/featured/2016-06-12-sonic-pi-gravity-falls-opening-song.jpg
-featured-author: evilglen
-featured-link: http://evilglen.deviantart.com/
+featured-image: img/featured/2016-06-12-sonic-pi-gravity-falls-opening-song.jpg
 permalink:  sonic-pi-gravity-falls-opening-song
 ---
 

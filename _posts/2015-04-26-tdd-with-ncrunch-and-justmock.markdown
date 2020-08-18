@@ -3,7 +3,7 @@ layout:     post
 title:      "TDD with NCrunch and JustMock"
 description: "Continuous Testing"
 author:     "eridem"
-main-img: "img/featured/2015-04-26-tdd-with-ncrunch-and-justmock.jpg"
+featured-image: "img/featured/2015-04-26-tdd-with-ncrunch-and-justmock.jpg"
 permalink:  tdd-with-ncrunch-and-justmock
 ---
 

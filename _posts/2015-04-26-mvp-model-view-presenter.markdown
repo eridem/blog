@@ -2,7 +2,7 @@
 layout:     post
 title:      "MVP, Model View Presenter"
 author:     "eridem"
-main-img: "img/featured/2015-04-26-mvp-model-view-presenter.jpg"
+featured-image: "img/featured/2015-04-26-mvp-model-view-presenter.jpg"
 permalink:  mvp-model-view-presenter
 ---
 

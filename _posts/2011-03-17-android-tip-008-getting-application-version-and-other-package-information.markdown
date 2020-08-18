@@ -3,7 +3,7 @@ layout:     post
 title:      "Getting application version and other package information"
 subtitle:   "Android tip #008"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-008-getting-application-version-and-other-package-information
 ---
 

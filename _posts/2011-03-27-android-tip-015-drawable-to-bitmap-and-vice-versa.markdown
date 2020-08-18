@@ -3,7 +3,7 @@ layout:     post
 title:      "Drawable to Bitmap (and vice versa)"
 subtitle:   "Android tip #015"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-015-drawable-to-bitmap-and-vice-versa
 ---
 

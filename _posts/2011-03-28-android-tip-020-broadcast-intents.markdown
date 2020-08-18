@@ -3,7 +3,7 @@ layout:     post
 title:      "Broadcast intents"
 subtitle:   "Android tip #020"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-020-broadcast-intents
 ---
 

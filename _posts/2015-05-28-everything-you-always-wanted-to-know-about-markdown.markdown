@@ -2,7 +2,7 @@
 layout:     post
 title:      "Everything you always wanted to know about Markdown"
 author:     "eridem"
-main-img: "img/featured/2015-05-28-everything-you-always-wanted-to-know-about-markdown.jpg"
+featured-image: "img/featured/2015-05-28-everything-you-always-wanted-to-know-about-markdown.jpg"
 permalink:  everything-you-always-wanted-to-know-about-markdown
 ---
 

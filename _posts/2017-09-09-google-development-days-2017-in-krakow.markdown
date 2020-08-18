@@ -2,7 +2,7 @@
 layout:     post
 title:      "Google Development Days 2017 in Kraków"
 author:     "eridem"
-main-img:   img/featured/2017-09-09-google-development-days-2017-in-krakow.jpg
+featured-image:   img/featured/2017-09-09-google-development-days-2017-in-krakow.jpg
 permalink:  google-development-days-2017-in-krakow
 ---
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Use Git, Gulp and Azure for Continuous Deployment a Website"
 author:     "eridem"
-main-img: "img/featured/2016-12-17-use-git-gulp-azure-continuous-deployment-website.jpg"
+featured-image: "img/featured/2016-12-17-use-git-gulp-azure-continuous-deployment-website.jpg"
 permalink:  use-git-gulp-azure-continuous-deployment-website
 ---
 

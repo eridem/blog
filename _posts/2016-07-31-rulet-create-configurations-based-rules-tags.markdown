@@ -2,7 +2,7 @@
 layout:     post
 title:      "Rulet, create configurations based on rules and tags"
 author:     "eridem"
-main-img: img/featured/2016-07-31-rulet-create-configurations-based-rules-tags.jpg
+featured-image: img/featured/2016-07-31-rulet-create-configurations-based-rules-tags.jpg
 permalink:  rulet-create-configurations-based-rules-tags
 ---
 

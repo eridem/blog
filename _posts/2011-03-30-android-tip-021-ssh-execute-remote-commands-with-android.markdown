@@ -3,7 +3,7 @@ layout:     post
 title:      "SSH, execute remote commands with Android"
 subtitle:   "Android tip #021"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-021-ssh-execute-remote-commands-with-android
 ---
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Stockholm Google Developer Group"
 author:     "eridem"
-main-img:   "img/featured/2017-06-03-stockholm-google-developer-group.jpg"
+featured-image:   "img/featured/2017-06-03-stockholm-google-developer-group.jpg"
 permalink:  stockholm-google-developer-group
 ---
 

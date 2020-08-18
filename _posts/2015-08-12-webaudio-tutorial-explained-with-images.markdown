@@ -2,9 +2,7 @@
 layout:     post
 title:      "WebAudio tutorial, explained with images"
 author:     "eridem"
-main-img: img/featured/2015-08-12-webaudio-tutorial-explained-with-images.jpg
-featured-author: VortexSupernova
-featured-link: http://vortexsupernova.deviantart.com/
+featured-image: img/featured/2015-08-12-webaudio-tutorial-explained-with-images.jpg
 permalink:  webaudio-tutorial-explained-with-images
 external: http://blog.loadimpact.com/blog/web-development/webaudio_explained/
 ---

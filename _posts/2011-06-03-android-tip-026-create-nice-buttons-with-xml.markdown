@@ -3,7 +3,7 @@ layout:     post
 title:      "Create nice buttons with XML"
 subtitle:   "Android tip #026"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-026-create-nice-buttons-with-xml
 ---
 

@@ -3,7 +3,7 @@ layout:     post
 title:      "Multi-language application"
 subtitle:   "Android tip #014"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-014-multi-language-application
 ---
 

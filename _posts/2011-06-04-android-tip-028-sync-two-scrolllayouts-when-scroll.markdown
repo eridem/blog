@@ -3,7 +3,7 @@ layout:     post
 title:      "Sync two ScrollLayouts when scroll"
 subtitle:   "Android tip #028"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-028-sync-two-scrolllayouts-when-scroll
 ---
 

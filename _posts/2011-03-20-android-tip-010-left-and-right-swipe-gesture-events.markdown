@@ -3,7 +3,7 @@ layout:     post
 title:      "Left and right swipe (gesture events)"
 subtitle:   "Android tip #010"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-010-left-and-right-swipe-gesture-events
 ---
 

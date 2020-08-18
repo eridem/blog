@@ -3,7 +3,7 @@ layout:     post
 title:      "Update user interface from a thread"
 subtitle:   "Android tip #011"
 author:     "eridem"
-main-img:   "img/featured/android-tip-left.jpg"
+featured-image:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-011-update-user-interface-from-a-thread
 ---
 

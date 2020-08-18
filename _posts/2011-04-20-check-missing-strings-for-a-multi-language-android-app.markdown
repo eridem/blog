@@ -3,7 +3,7 @@ layout:     post
 title:      "Check missing strings for a multi-language Android application"
 subtitle:   "Lint those texts"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  check-missing-strings-for-a-multi-language-android-app
 ---
 

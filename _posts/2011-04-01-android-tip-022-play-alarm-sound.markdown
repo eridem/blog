@@ -3,7 +3,7 @@ layout:     post
 title:      "Play alarm sound"
 subtitle:   "Android tip #022"
 author:     "eridem"
-main-img:   "img/featured/android-tip-right.jpg"
+featured-image:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-022-play-alarm-sound
 ---
 

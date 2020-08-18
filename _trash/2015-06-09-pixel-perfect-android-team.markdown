@@ -2,7 +2,7 @@
 layout:     post
 title:      "Pixel Perfect: Android Team"
 author:     "eridem"
-main-img: "img/posts/pixel-perfect/QATeam.png"
+featured-image: "img/posts/pixel-perfect/QATeam.png"
 permalink:  pixel-perfect-android-team
 ---
 

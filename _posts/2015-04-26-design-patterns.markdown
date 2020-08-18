@@ -2,9 +2,7 @@
 layout:     post
 title:      "Design Patterns"
 author:     "eridem"
-main-img: "img/featured/2015-04-26-design-patterns.jpg"
-featured-author: Kimmax3110
-featured-link: http://kimmax3110.deviantart.com/
+featured-image: "img/featured/2015-04-26-design-patterns.jpg"
 permalink:  design-patterns
 ---
 
