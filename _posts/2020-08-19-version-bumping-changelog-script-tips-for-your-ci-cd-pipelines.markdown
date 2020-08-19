@@ -2,7 +2,7 @@
 layout:     post
 title:      "Versions/Bumping/Changelog script tips for your CI/CD pipelines"
 author:     "eridem"
-main-img:   img/featured/2020-06-14-version-bumping-changelog-script-tips-for-your-ci-cd-pipelines.jpg
+main-img:   img/featured/2020-08-19-version-bumping-changelog-script-tips-for-your-ci-cd-pipelines.jpg
 permalink:  version-bumping-changelog-script-tips-for-your-ci-cd-pipelines
 comments: true
 ---
