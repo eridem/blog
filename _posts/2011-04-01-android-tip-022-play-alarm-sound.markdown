@@ -3,10 +3,8 @@ layout:     post
 title:      "Play alarm sound"
 subtitle:   "Android tip #022"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-022-play-alarm-sound
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We can play the user's alarm sound in our application using the class `RingtoneManager` and `MediaPlayer`.

@@ -3,10 +3,8 @@ layout:     post
 title:      "Create nice buttons with XML"
 subtitle:   "Android tip #026"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-026-create-nice-buttons-with-xml
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 We can create nice buttons simply using few colors and gradients. We need to create a `Selector` resource and attach all the shape items for every state: `pressed`, `focussed`, `disabled` and `normal`. In the most common cases, focussed and normal could show the same result. In the case of pressed and normal, we will invert the colors. And in the case of disabled, we will use other colors (like a gray color).

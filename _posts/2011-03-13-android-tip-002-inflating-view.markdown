@@ -3,10 +3,8 @@ layout:     post
 title:      "Inflating view"
 subtitle:   "Android tip #002"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-002-inflating-view
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 You can reuse a View from a XML file in your code loading it like a View. It is useful for dynamic Screens or when you create custom lists.

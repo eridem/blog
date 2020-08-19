@@ -3,10 +3,8 @@ layout:     post
 title:      "Left and right swipe (gesture events)"
 subtitle:   "Android tip #010"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-010-left-and-right-swipe-gesture-events
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 Android has some tools to receive touch events, but with this code, we will received left and right swipes on the whole screen.

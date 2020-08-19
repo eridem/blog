@@ -33,9 +33,11 @@ layout: default
                 <nav class="navbar navbar-default nomargin-bottom">
                     <div class="container-fluid">
                         <div class="navbar-header">
+                            <a class="social-on-brand navbar-brand visible-xs-inline-block" href="#">{{ page.date | date: '%B %d, %Y' }}</a>
                             {% include social-on-brand.html %}
                         </div>
                         <ul class="nav navbar-nav navbar-right hidden-xs">
+                            <a class="social-on-brand navbar-brand hidden-xs-inline-block" href="#">{{ page.date | date: '%B %d, %Y' }}</a>
                             {% include social.html %}
                         </ul>
                     </div>

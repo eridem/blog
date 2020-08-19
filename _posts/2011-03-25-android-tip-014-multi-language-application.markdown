@@ -3,10 +3,8 @@ layout:     post
 title:      "Multi-language application"
 subtitle:   "Android tip #014"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-014-multi-language-application
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 If we need to create an application that supports different languages, we need to create different folders for values for different languages. Here an example of English (default), Spanish (es) and Swedish (sv). The language is selected automatically using the system language.

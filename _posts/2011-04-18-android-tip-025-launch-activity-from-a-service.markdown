@@ -3,10 +3,8 @@ layout:     post
 title:      "Launch Activity from a service"
 subtitle:   "Android tip #025"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-025-launch-activity-from-a-service
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 If we have a service in background and we need to launch an `Activity` in foreground, we need to add the tag `FLAG_ACTIVITY_NEW_TASK` to the `Intent`.

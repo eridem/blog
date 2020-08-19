@@ -3,10 +3,8 @@ layout:     post
 title:      "Send and receive information from Activities"
 subtitle:   "Android tip #005"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-005-send-and-receive-information-from-activities
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 This is an easy example about how to pass information from one Activity to another and receive back information.

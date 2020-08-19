@@ -3,9 +3,7 @@ layout:     post
 title:      "Json to dynamic object"
 description: ".NET Tip #001"
 author:     "eridem"
-main-img: "img/featured/windows_background.jpg"
-featured-author: WarrenClyde
-featured-link: http://warrenclyde.deviantart.com/
+main-img: "img/featured/2013-01-10-net-tip-001-json-to-dynamic-object.jpg"
 permalink:  net-tip-001-json-to-dynamic-object
 ---
 

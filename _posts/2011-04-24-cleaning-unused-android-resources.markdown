@@ -3,10 +3,8 @@ layout:     post
 title:      "Cleaning unused Android resources"
 subtitle:   "Cleaning automated"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  cleaning-unused-android-resources
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 On middle/big projects we usually add lots of resources that we can use on code files, layouts or other resources. When we start to do modifications to the project, sometimes we forgot to remove unused strings, drawables, layouts and so on.

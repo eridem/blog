@@ -3,10 +3,8 @@ layout:     post
 title:      "Yes/No dialog"
 subtitle:   "Android tip #004"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-004-yesno-dialog
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 This code shows a yes/no dialog as pop-up. The code can handle the response.

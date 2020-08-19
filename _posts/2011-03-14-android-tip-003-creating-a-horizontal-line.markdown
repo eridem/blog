@@ -3,10 +3,8 @@ layout:     post
 title:      "Creating a horizontal line"
 subtitle:   "Android tip #003"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-left.jpg"
 permalink:  android-tip-003-creating-a-horizontal-line
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 This code inserted in the a layout can be used to show an horizontal line.

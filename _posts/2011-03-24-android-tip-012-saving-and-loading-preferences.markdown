@@ -3,10 +3,8 @@ layout:     post
 title:      "Saving and loading preferences"
 subtitle:   "Android tip #012"
 author:     "eridem"
-main-img: "img/featured/android_background.jpg"
+main-img:   "img/featured/android-tip-right.jpg"
 permalink:  android-tip-012-saving-and-loading-preferences
-featured-author: Psychopulse
-featured-link: http://psychopulse.deviantart.com/
 ---
 
 Save and load preferences on Android is quite easy. You can save primitive values as Key-Value. `SharedPreferences` class on android is very useful to save states on Android.
