@@ -1,0 +1,547 @@
+[
+  
+    {
+      "title"    : "Versions/Bumping/Changelog script tips for your CI/CD pipelines",
+      "category" : "",
+      "tags"     : "platform and pipelines",
+      "url"      : "/version-bumping-changelog-script-tips-for-your-ci-cd-pipelines",
+      "date"     : "Aug 19, 2020"
+    } ,
+  
+    {
+      "title"    : "Set up a headless web testing project with Docker, Chrome and Firefox",
+      "category" : "",
+      "tags"     : "platform and testing",
+      "url"      : "/set-up-a-headless-web-testing-project-with-docker-chrome-and-firefox",
+      "date"     : "May 12, 2018"
+    } ,
+  
+    {
+      "title"    : "Multistage builds for NodeJS",
+      "category" : "",
+      "tags"     : "platform and pipelines",
+      "url"      : "/multistage-builds-for-nodejs",
+      "date"     : "Nov 19, 2017"
+    } ,
+  
+    {
+      "title"    : "Continuous Delivery Stockholm Group",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/continuous-delivery-stockholm-group",
+      "date"     : "Oct 31, 2017"
+    } ,
+  
+    {
+      "title"    : "Quick start with Hashicorp Terraform, infrastructure as code",
+      "category" : "",
+      "tags"     : "platform and infrastructure",
+      "url"      : "/infrastructure-as-code-replace-custom-terminal-scripts-and-uis",
+      "date"     : "Sep 17, 2017"
+    } ,
+  
+    {
+      "title"    : "Google Development Days 2017 in Kraków",
+      "category" : "",
+      "tags"     : "events and life",
+      "url"      : "/google-development-days-2017-in-krakow",
+      "date"     : "Sep 9, 2017"
+    } ,
+  
+    {
+      "title"    : "Edison 2017, Demoscene by KpRñA",
+      "category" : "",
+      "tags"     : "events and life",
+      "url"      : "/edison-2017-demoscene-kprna",
+      "date"     : "Jul 2, 2017"
+    } ,
+  
+    {
+      "title"    : "Stockholm Google Developer Group",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/stockholm-google-developer-group",
+      "date"     : "Jun 3, 2017"
+    } ,
+  
+    {
+      "title"    : "Deploying Microservices Transparently in Clusters with Docker and Nomad",
+      "category" : "",
+      "tags"     : "platform and infrastructure",
+      "url"      : "/deploying-microservices-transparently-in-clusters-with-docker-and-nomad",
+      "date"     : "Apr 29, 2017"
+    } ,
+  
+    {
+      "title"    : "Hostify",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/hostify",
+      "date"     : "Feb 19, 2017"
+    } ,
+  
+    {
+      "title"    : "Use Git, Gulp and Azure for Continuous Deployment a Website",
+      "category" : "",
+      "tags"     : "platform, automation, and development",
+      "url"      : "/use-git-gulp-azure-continuous-deployment-website",
+      "date"     : "Dec 17, 2016"
+    } ,
+  
+    {
+      "title"    : "Postman Runner | Visual Studio Code Extension",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/postman-runner-visual-studio-code-extension",
+      "date"     : "Nov 6, 2016"
+    } ,
+  
+    {
+      "title"    : "NuGet NuPkg Viewer | Visual Studio Code Extension",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/nuget-nupkg-viewer-visual-studio-code-extension",
+      "date"     : "Nov 6, 2016"
+    } ,
+  
+    {
+      "title"    : "Creating a CLI tool in Node.js",
+      "category" : "",
+      "tags"     : "platform, automation, and development",
+      "url"      : "/creating-a-cli-tool-in-node-js",
+      "date"     : "Oct 22, 2016"
+    } ,
+  
+    {
+      "title"    : "Rulet, create configurations based on rules and tags",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/rulet-create-configurations-based-rules-tags",
+      "date"     : "Jul 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Edison 2016, Demoscene by KpRñA",
+      "category" : "",
+      "tags"     : "events and life",
+      "url"      : "/edison-2016-demoscene-kprna",
+      "date"     : "Jul 3, 2016"
+    } ,
+  
+    {
+      "title"    : "Sonic Pi, Gravity Falls opening song",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/sonic-pi-gravity-falls-opening-song",
+      "date"     : "Jun 12, 2016"
+    } ,
+  
+    {
+      "title"    : "Gulp.js, the power of automating tasks",
+      "category" : "",
+      "tags"     : "platform and automation",
+      "url"      : "/gulpjs-the-power-of-automating-tasks",
+      "date"     : "Apr 4, 2016"
+    } ,
+  
+    {
+      "title"    : "Stockholm Android Meetup",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/stockholm-android-meetup",
+      "date"     : "Mar 25, 2016"
+    } ,
+  
+    {
+      "title"    : "Patata.io Slides",
+      "category" : "",
+      "tags"     : "development and speech",
+      "url"      : "/patataio-slides",
+      "date"     : "Mar 16, 2016"
+    } ,
+  
+    {
+      "title"    : "HockeyApp API Wrapper module for NPM",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/hockeyapp-api-wrapper-module-for-npm",
+      "date"     : "Feb 28, 2016"
+    } ,
+  
+    {
+      "title"    : "Introduction to JavaScript for Pebble Time Smart-Watch",
+      "category" : "",
+      "tags"     : "smartwatch",
+      "url"      : "/introduction-to-javascript-for-pebble-time-smart-watch",
+      "date"     : "Nov 16, 2015"
+    } ,
+  
+    {
+      "title"    : "WebAudio tutorial, explained with images",
+      "category" : "",
+      "tags"     : "web",
+      "url"      : "/webaudio-tutorial-explained-with-images",
+      "date"     : "Aug 12, 2015"
+    } ,
+  
+    {
+      "title"    : "Second System Syndrome",
+      "category" : "",
+      "tags"     : "development and speech",
+      "url"      : "/second-system-syndrome",
+      "date"     : "Jul 21, 2015"
+    } ,
+  
+    {
+      "title"    : "Generating GIFs with C#",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/generating-gifs-with-csharp",
+      "date"     : "Jul 4, 2015"
+    } ,
+  
+    {
+      "title"    : "Edison 2015, A Demoscene Odyssey",
+      "category" : "",
+      "tags"     : "events and life",
+      "url"      : "/edison-2015-a-demoscene-odyssey",
+      "date"     : "Jun 25, 2015"
+    } ,
+  
+    {
+      "title"    : "Everything you always wanted to know about Markdown",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/everything-you-always-wanted-to-know-about-markdown",
+      "date"     : "May 28, 2015"
+    } ,
+  
+    {
+      "title"    : "Regular Expression in the Real World",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/regular-expression-in-the-real-world",
+      "date"     : "May 17, 2015"
+    } ,
+  
+    {
+      "title"    : "TDD, Test Driven Development – Betsson&#39;s workshop for KTH",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/tdd-test-driven-development-betssons-workshop-for-kth",
+      "date"     : "May 3, 2015"
+    } ,
+  
+    {
+      "title"    : "TDD with NCrunch and JustMock",
+      "category" : "",
+      "tags"     : "development and testing",
+      "url"      : "/tdd-with-ncrunch-and-justmock",
+      "date"     : "Apr 26, 2015"
+    } ,
+  
+    {
+      "title"    : "MVP, Model View Presenter",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/mvp-model-view-presenter",
+      "date"     : "Apr 26, 2015"
+    } ,
+  
+    {
+      "title"    : "Design Patterns",
+      "category" : "",
+      "tags"     : "events and speech",
+      "url"      : "/design-patterns",
+      "date"     : "Apr 26, 2015"
+    } ,
+  
+    {
+      "title"    : "Test Driven Development and CI using JavaScript [Part II]",
+      "category" : "",
+      "tags"     : "development and testing",
+      "url"      : "/test-driven-development-and-ci-using-javascript-part-ii",
+      "date"     : "Jun 18, 2014"
+    } ,
+  
+    {
+      "title"    : "Test Driven Development and CI using JavaScript [Part I]",
+      "category" : "",
+      "tags"     : "development and testing",
+      "url"      : "/test-driven-development-and-ci-using-javascript-part-i",
+      "date"     : "Jun 18, 2014"
+    } ,
+  
+    {
+      "title"    : "Json to dynamic object",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/net-tip-001-json-to-dynamic-object",
+      "date"     : "Jan 10, 2013"
+    } ,
+  
+    {
+      "title"    : "Exception Handling in an AngularJS Web Application",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/exception-handling-in-an-angularjs-web-application-tutorial",
+      "date"     : "Jan 10, 2013"
+    } ,
+  
+    {
+      "title"    : "Sync two ScrollLayouts when scroll",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-028-sync-two-scrolllayouts-when-scroll",
+      "date"     : "Jun 4, 2011"
+    } ,
+  
+    {
+      "title"    : "Add shadow to labels, buttons and other views",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-027-add-shadow-to-lables-buttons-and-other-view",
+      "date"     : "Jun 3, 2011"
+    } ,
+  
+    {
+      "title"    : "Create nice buttons with XML",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-026-create-nice-buttons-with-xml",
+      "date"     : "Jun 3, 2011"
+    } ,
+  
+    {
+      "title"    : "ERiDeM Monsters",
+      "category" : "",
+      "tags"     : "development",
+      "url"      : "/eridem-monsters",
+      "date"     : "Apr 25, 2011"
+    } ,
+  
+    {
+      "title"    : "Cleaning unused Android resources",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/cleaning-unused-android-resources",
+      "date"     : "Apr 24, 2011"
+    } ,
+  
+    {
+      "title"    : "Check missing strings for a multi-language Android application",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/check-missing-strings-for-a-multi-language-android-app",
+      "date"     : "Apr 20, 2011"
+    } ,
+  
+    {
+      "title"    : "Launch Activity from a service",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-025-launch-activity-from-a-service",
+      "date"     : "Apr 18, 2011"
+    } ,
+  
+    {
+      "title"    : "Optimize lists a 175%",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-024-optimize-lists-a-175",
+      "date"     : "Apr 9, 2011"
+    } ,
+  
+    {
+      "title"    : "Optimize lists a 150%",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-023-optimize-lists-a-150",
+      "date"     : "Apr 9, 2011"
+    } ,
+  
+    {
+      "title"    : "Play alarm sound",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-022-play-alarm-sound",
+      "date"     : "Apr 1, 2011"
+    } ,
+  
+    {
+      "title"    : "SSH, execute remote commands with Android",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-021-ssh-execute-remote-commands-with-android",
+      "date"     : "Mar 30, 2011"
+    } ,
+  
+    {
+      "title"    : "Broadcast intents",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-020-broadcast-intents",
+      "date"     : "Mar 28, 2011"
+    } ,
+  
+    {
+      "title"    : "Database not open",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-019-database-not-open",
+      "date"     : "Mar 28, 2011"
+    } ,
+  
+    {
+      "title"    : "Resize layout on show/hide keyboard",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-018-resize-layout-on-showhide-keyboard",
+      "date"     : "Mar 27, 2011"
+    } ,
+  
+    {
+      "title"    : "Intercepting back button",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-017-intercepting-back-button",
+      "date"     : "Mar 27, 2011"
+    } ,
+  
+    {
+      "title"    : "Use custom fonts",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-016-use-custom-fonts",
+      "date"     : "Mar 27, 2011"
+    } ,
+  
+    {
+      "title"    : "Drawable to Bitmap (and vice versa)",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-015-drawable-to-bitmap-and-vice-versa",
+      "date"     : "Mar 27, 2011"
+    } ,
+  
+    {
+      "title"    : "Multi-language application",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-014-multi-language-application",
+      "date"     : "Mar 25, 2011"
+    } ,
+  
+    {
+      "title"    : "Gradient backgrounds",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-013-gradient-backgrounds",
+      "date"     : "Mar 25, 2011"
+    } ,
+  
+    {
+      "title"    : "Saving and loading preferences",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-012-saving-and-loading-preferences",
+      "date"     : "Mar 24, 2011"
+    } ,
+  
+    {
+      "title"    : "Update user interface from a thread",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-011-update-user-interface-from-a-thread",
+      "date"     : "Mar 20, 2011"
+    } ,
+  
+    {
+      "title"    : "Left and right swipe (gesture events)",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-010-left-and-right-swipe-gesture-events",
+      "date"     : "Mar 20, 2011"
+    } ,
+  
+    {
+      "title"    : "Getting the device wallpaper",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-009-getting-the-device-wallpaper",
+      "date"     : "Mar 17, 2011"
+    } ,
+  
+    {
+      "title"    : "Getting application version and other package information",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-008-getting-application-version-and-other-package-information",
+      "date"     : "Mar 17, 2011"
+    } ,
+  
+    {
+      "title"    : "Full screen activity/application",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-007-full-screen-activity-application",
+      "date"     : "Mar 17, 2011"
+    } ,
+  
+    {
+      "title"    : "On text change in EditText view",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-006-on-text-change-in-edittext-view",
+      "date"     : "Mar 16, 2011"
+    } ,
+  
+    {
+      "title"    : "Send and receive information from Activities",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-005-send-and-receive-information-from-activities",
+      "date"     : "Mar 15, 2011"
+    } ,
+  
+    {
+      "title"    : "Yes/No dialog",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-004-yesno-dialog",
+      "date"     : "Mar 14, 2011"
+    } ,
+  
+    {
+      "title"    : "Creating a horizontal line",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-003-creating-a-horizontal-line",
+      "date"     : "Mar 14, 2011"
+    } ,
+  
+    {
+      "title"    : "Inflating view",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-002-inflating-view",
+      "date"     : "Mar 13, 2011"
+    } ,
+  
+    {
+      "title"    : "Intercepting URL from default browser",
+      "category" : "",
+      "tags"     : "android",
+      "url"      : "/android-tip-001-intercepting-url-from-default-browser",
+      "date"     : "Mar 13, 2011"
+    } ,
+  
+    {
+      "title"    : "Friendly Korea Community API",
+      "category" : "",
+      "tags"     : "projects",
+      "url"      : "/friendly-korea-community-api",
+      "date"     : "May 4, 2009"
+    } 
+  
+]

@@ -1,29 +1,24 @@
-# http://eridem.net
+# Aditu
 
-Code for the blog <http://eridem.net>.
+Aditu is a stylish and modern dark theme with a clean and unique design, this theme is created for those who want to share their stories quickly and easily, as well as provide your readers with an unforgettable experience of viewing content.
 
-## Licenses
+* * *
 
-- Forked and deatached from project BlackrockDigital/startbootstrap-clean-blog-jekyll:
-  - **Repository**: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
-  - **License**:    https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/9fb9dbfce7d8d2625acee9f079121998992e45d7/LICENSE
+### Demo
 
-## Troubleshooting
+Check the theme in action [Demo](https://aditu.netlify.com/)
 
-*Windows* installation:
+* * *
 
-- Download and install <https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe>
-- Download and install in `C:\RubyDevKit` <https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe>
-- Add `C:\Ruby22-x64\bin` to your path.
-- Go to `C:\RubyDevKit` and execute:
-  ```sh
-  ruby.exe dk.rb init
-  ruby.exe dk.rb install
-  ```
-- Go to the project and execute:
-  ```sh
-  yarn
-  yarn grunt
-  yarn build
-  yarn start
-  ```
+### Deployment
+
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
+
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+
+
+* * *
+
+### Documentation
+
+Before using the Aditu theme, please read the attached documentation.
