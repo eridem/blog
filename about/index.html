@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Second System Syndrome</title>
+  <title>About</title>
   <meta name='description' content='miguel ángel domínguez coloma'>
 
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Second System Syndrome" />
+  <meta property="og:title" content="About" />
   <meta property="og:description" content="miguel ángel domínguez coloma" />
-  <meta property="og:image" content="/images/featured/2015-07-21-second-system-syndrome.jpg" />
-  <meta property="og:url" content="http://eridem.net/second-system-syndrome" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="http://eridem.net/about/" />
   <meta property="og:site_name" content="miguel ángel domínguez coloma" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMgBga0mbk">
@@ -27,7 +27,7 @@
   <meta name="theme-color" content="#ffffff">
  
   
-  <link rel="canonical" href="http://blog.loadimpact.com/blog/devops/second-system-syndrome/" />
+  <link rel="canonical" href="http://eridem.net/about/">
   
 
   <link rel="alternate" type="application/rss+xml" title="miguel ángel domínguez coloma" href="/feed.xml">
@@ -349,353 +349,21 @@
   <!-- begin content -->
   <main class="content" aria-label="Content">
     
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <div class="image-box">
-        <img class="post-image" src="/images/featured/2015-07-21-second-system-syndrome.jpg" alt="Second System Syndrome">
-      </div>
-    </div>
-  </div>
-</div>
-
 
 <div class="container">
   <div class="row">
-    <div class="col col-8 col-d-10 push-2 push-d-1 col-t-12 push-t-0">
-      <!-- begin post -->
-      <article class="post animate">
-
-        <div class="post-head">
-          
-          <div class="post-tags">
-            
-            <a href="/tag/development" class="post-tags__tag">development</a>
-            
-            <a href="/tag/speech" class="post-tags__tag">speech</a>
-            
-          </div>
-          
-          <h1 class="post-title">Second System Syndrome</h1>
-          <div class="post__meta">
-            <div class="post__author">
-              <a href="https://linkedin.com/in/eridem" class="post__author-image" target="_blank"
-                style="background-image: url(/images/avatar.jpg)" aria-label="Miguel Ángel Domínguez Coloma's Picture"></a> <a href="https://linkedin.com/in/eridem" class="post__author-link" target="_blank">Miguel Ángel Domínguez Coloma</a>
-            </div>
-            <span class="post__date">
-              <time datetime="2015-07-21T00:00:00+02:00">Jul 21, 2015</time>
-            </span>
-          </div>
+    <div class="col col-8 push-2 col-d-10 col-m-12 push-d-1 push-m-0">
+      <!-- begin page -->
+      <article class="page animate">
+        <div class="page-head">
+          <h1 class="page-title">About</h1>
         </div>
-
-        <div class="post__content">
-          <p>This post is about a concept called Second System Syndrome, defined by Fred Brooks, in his book <a href="http://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959">The Mythical Man Month</a>:</p>
-
-<blockquote>
-  <p>It refers to a condition that occurs after a first system has been implemented. When it seems to be working well, designers turn their attention to a more elaborate second system, which is often bloated and grandiose and fails due to its over-ambitious design. In the meantime, the first system may also fail because it was abandoned and not continually refined.</p>
-</blockquote>
-
-<h3 id="table-of-contents">Table of Contents</h3>
-
-<ul>
-  <li><a href="#prologue">Prologue</a></li>
-  <li><a href="#promises">Promises</a></li>
-  <li><a href="#starting">Starting a Second System Syndrome</a></li>
-  <li><a href="#knowledge">Knowledge</a></li>
-  <li><a href="#teamAndRivalities">Team and rivalities</a></li>
-  <li><a href="#featureRace">Feature race</a></li>
-  <li><a href="#outside">Outside the Second System Syndrome</a></li>
-  <li><a href="#presentation">Presentation</a> (presentation I did in my company)</li>
-</ul>
-
-<h3 id="prologue">Prologue</h3>
-
-<p>Maybe, you as a reader, could recognize the following expression coming from your team:</p>
-
-<blockquote>
-  <p>This system looks like crap and the code of the previous guy is understandable. We should implement it again avoiding mistakes made in the past with the best code practices and using the latest architectural designs.</p>
-</blockquote>
-
-<p>As soon as this idea flourishes in the minds of team members, it’s difficult to take out.</p>
-
-<p>Here are some reasons people try to salvage old code:</p>
-
-<ul>
-  <li>New developers in the company may not understand the previous architecture and code</li>
-  <li>New technologies have been learned during the latest years and the use of those in the current project, which implies to completely modify completely the system</li>
-  <li>The current system is unstable due to many applied hotfixes. It can be difficult to maintain those hotfixes</li>
-</ul>
-
-<h3 id="promises">Promises</h3>
-
-<p>Commonly, managers, developers and architects gather to talk about it. They end up with great proposals in order to define how the new system should work:</p>
-
-<blockquote>
-  <p>Better architecture. Split the design into modules with specific functionality.
-Generic design: We will easily make changes in the future and quickly.
-Less code: We will avoid repeated code, which the old system has.
-The latest technologies: Maybe they’ll also use the top notch frameworks that the community believes right now.
-Knowledge: If it exists already an implemented system and we know how it works.
-Fast delivery: Because we will have a better design, better technologies and a better approach, we will be able to finish it quickly.</p>
-</blockquote>
-
-<p>All of those ideas are promising. Probably, in some cases, they are the solution to the current system. The idea of improving an existing system is something that we as developers need to embrace.</p>
-
-<p>But the main idea and discussion I would like to cover in this entry comes which the following sentence:</p>
-
-<blockquote>
-  <p>It will be easier to redo it than to fix it. Let’s start over.</p>
-</blockquote>
-
-<h3 id="starting">Starting</h3>
-
-<p>All promises are gathered and the new approach started. Everybody has input for the new project, team seems to be happy (check section “<a href="#teamAndRivalities">Team and Possible Conflicts</a>”). The project starts, or the <a href="https://en.wikipedia.org/wiki/Proof_of_concept">POC</a> starts.</p>
-
-<h3 id="knowledge">Knowledge</h3>
-
-<p>Some of the problems with the Second System Syndrome come with the knowledge of the <a href="https://en.wikipedia.org/wiki/Functional_requirement">functional requirements</a>.</p>
-
-<p>The previous system, usually, does not have enough <a href="https://en.wikipedia.org/wiki/Unit_testing">test cases</a> to prove that one specific functional requirement works correctly. This may slow down the progress of the second system because it could be difficult to prove the new implementation of a feature works exactly as before.</p>
-
-<p>The first system may lack documentation. This issue could come from poor definition of <a href="https://en.wikipedia.org/wiki/Use_case">use cases</a>, documentation about the architecture and information about hotfixes patched in the previous system.</p>
-
-<h5 id="found-issues">Found issues</h5>
-
-<ul>
-  <li>Spend a lot of time trying to reproduce the behaviors of the first system</li>
-  <li>Spend time reading about the previous system directly from the first system code in order to locate valuable information</li>
-  <li>Hotfixes may not be documented</li>
-</ul>
-
-<h5 id="possible-solutions-within-a-second-system-syndrome-stage">Possible solutions within a Second System Syndrome stage</h5>
-
-<ul>
-  <li>Gather <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> and functional requirements.</li>
-  <li>Add unit tests to the old system in order to test behaviors and functional requirements. For example, use <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behavior-driven development</a> frameworks like <a href="https://jasmine.github.io/">Jasmin</a></li>
-  <li>Create UX diagrams to understand the user experience flow of the application (e.g. using <a href="https://balsamiq.com/">Balsamiq</a> or <a href="http://www.axure.com/">Axure</a>)</li>
-  <li>Create architecture diagrams in three layers: overview, module definition and detailed description</li>
-  <li>Spend more time learning about what previous system does. This may sound obvious but teams tend to ignore what has been done previously</li>
-</ul>
-
-<h3 id="teamAndRivalities">Team and Possible Conflicts</h3>
-
-<p>People are the most important part of the project. From professionals to beginners, everybody has a role in the team. Figure out what role can help to create products with better quality and in a sorted way. As an example, two extremely “professional” members working in a project that cannot work as a team will end up in an unfinished and poor product.</p>
-
-<p>It’s also important to remember that team members could be affected from the Second System Syndrome. Professionally and personally.</p>
-
-<p>Developers tend to embrace new technologies. When a second system needs to be implemented, it’s common to use new technologies or frameworks.</p>
-
-<p>Team members may like to participate on the second system project, which could offer them more knowledge.</p>
-
-<p>As the first system needs to be maintained, this could affect to some of the members that cannot participate full-time on the second system.</p>
-
-<ul>
-  <li>In the technical perspective, team members think their knowledge has not been improved because they do not participate in the second system</li>
-  <li>In the personal perspective, the team members could have difficulties collaborating between each other, which breaks the close cooperation that they had previously</li>
-</ul>
-
-<p>Team members may not be opened to express their disappointments, or they could express them in bad ways.</p>
-
-<h5 id="found-issues-1">Found issues</h5>
-
-<ul>
-  <li>Team members may be affected professionally and personally</li>
-</ul>
-
-<h5 id="possible-solutions-within-a-second-system-syndrome-stage-1">Possible solutions within a Second System Syndrome stage</h5>
-
-<ul>
-  <li>Open discussions about ideas, technologies and feelings</li>
-  <li>Have a leader that can help cheer up the team</li>
-  <li>Accept and analyze suggestions from the team</li>
-  <li>Rotate members to implement maintenance the first system and implement the second one</li>
-</ul>
-
-<h3 id="featureRace">Feature race</h3>
-
-<p>Features never end in a project. Features can be shaped as functional or nonfunctional requirements.</p>
-
-<p>Normally, while the second system is being implemented, the first one is in production. Products change quickly and clients and salesmen agree to release features that are needed on the market.</p>
-
-<p>Some important features can be planned to be implemented on the first system, that is currently in production, because they may start generating income to the company in short time.</p>
-
-<p>The following diagrams explain the feature race between both systems:</p>
-
-<p><img src="/images/posts/2015-07-21-second-system-syndrome/FeatureRace.png" alt="Feature race" /></p>
-
-<p>In the first stage (stage A), the second system has been planned to have the same number of features that the first one. The architecture and design could cover those features and be slightly dynamic for changes.</p>
-
-<p>When the first important feature is introduced on the first system, the second system needs to record it for future implementation (stage B).</p>
-
-<p>Usually, the first system is able to implement and release the feature faster than the second system. Usually the second system is still implementing the missing features that the first system contains.</p>
-
-<p>The following table describes the work needed on both systems:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>First system</th>
-      <th>Second System</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Maintenance bugs/improvements</td>
-      <td>Maintenance bugs/improvements</td>
-    </tr>
-    <tr>
-      <td>Add new features</td>
-      <td>Add new features</td>
-    </tr>
-    <tr>
-      <td>Refactoring (make code better)</td>
-      <td>Refactoring (make code better)</td>
-    </tr>
-    <tr>
-      <td>Add test cases</td>
-      <td>Add test cases</td>
-    </tr>
-    <tr>
-      <td>-</td>
-      <td>Design new code/architecture</td>
-    </tr>
-    <tr>
-      <td>-</td>
-      <td>Implement missing features</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Note that refactoring the first system and add test cases could be slower than in the second system, which means that even the diagram shows the new feature with the same width (estimation), this could apply differently between systems.</p>
-
-<p>The maintenance of the first system (refactoring and testing it) could end up in a feature race, where the first system may improve significantly before the second system is done. Adding new features in the second system may break the estimations done originally when the project started.</p>
-
-<h5 id="found-issues-2">Found issues</h5>
-
-<ul>
-  <li>First system may need still to implement some features due are required by managers/POs/salesmen/etc.</li>
-  <li>The curve to finish the second system may increment in the middle of the project</li>
-  <li>If the first system, which is on production, decides not to incorporate new features, competitors may take advantage of it (e.g. Netscape and Internet Explorer <a href="http://coliveira.net/software/what-is-second-system-syndrome/">case</a>)</li>
-</ul>
-
-<h5 id="possible-solutions-within-a-second-system-syndrome-stage-2">Possible solutions within a Second System Syndrome stage</h5>
-
-<ul>
-  <li>Implement firstly the <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a></li>
-  <li>Create alpha and beta releases continuously</li>
-</ul>
-
-<h3 id="outside">Outside the Second System Syndrome</h3>
-
-<p>As said previously, the team members have good reasons to improve the product they are working on: Better architecture, better design, less code, new frameworks, faster delivery.</p>
-
-<p>During this post, I tried to explain the consequences of a Second System Syndrome and explain some of the solutions if we are inside this stage. But before end up this post, we should consider the following approach:</p>
-
-<blockquote>
-  <p>Refactoring is the process of changing a software system in such a way that it does not alter the external behavior of the code yet improves its interanl structure […] In essence when you refactor you are improving the design of the code after it has been written - Martin Fowler in “<a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672">Refactoring, Improving the design of existing code</a>”.</p>
-</blockquote>
-
-<p>Refactoring gives us the possibility to modify an existing system and improve in such a way the system has the same features than before. Refactoring could cover from UX, Design, Architecture, APIs, Code, etc. For every of those areas, we may need to find an approach. The most common way is:</p>
-
-<ul>
-  <li>Start dividing the system in modules, or pieces, like a cake</li>
-  <li>Pick up one of those pieces and improve it slowly without affecting the whole system</li>
-  <li>Release it quickly. The reason to include “release” in the improvement process is related to avoid big complicate refactors that stops the common release flow of the product. Note that one of the big problems of the Second System Syndrome is the impossibility to finish it. Releasing quick “push” the team to improve the system and at the same time keep it stable</li>
-</ul>
-
-<p>Some books about refactoring (in the code point of view):</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><img src="/images/posts/2015-07-21-second-system-syndrome/CleanCodeBook.jpg" alt="Clean Code" /></td>
-      <td><img src="/images/posts/2015-07-21-second-system-syndrome/RefactoringBook.jpg" alt="Refactoring, improving the design of existing code" /></td>
-    </tr>
-    <tr>
-      <td><a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code: A Handbook of Agile Software Craftsmanship</a>, by Robert C. Martin.</td>
-      <td><a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672">Refactoring: Improving the Design of Existing Code</a>, by Martin Fowler.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h4 id="extras">Extras</h4>
-
-<p>As an extra, we can apply some of the following suggestions to the current system:</p>
-
-<ul>
-  <li>Refactor code into behaviors, for example, using <a href="https://en.wikipedia.org/wiki/Strategy_pattern">Strategy Patterns</a>so the knowledge is documented into the algorithms. Do not make at this point complicated refactoring, trying to reuse as much code as possible, only try to split it</li>
-  <li>Start applying <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behavior-driven development</a> to your current project to cover your functional requirements</li>
-  <li>Use about twice of your time learning and you will be able to multiple xN your speed implementing features</li>
-  <li>Spend time learning about existing code that makes a team member better developer and understand the context of the product</li>
-  <li>You can use the same tips than within the Second System Syndrome with the advantage that you improve what it is done already</li>
-</ul>
-
-<h3 id="presentation">Presentation</h3>
-
-<p>Use the arrows on the left and right of the presentation in order to move between slides.</p>
-
-<iframe src="//cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1IS-nv6oTOIGybvZNVIJQGxfy85Y12mNG6eaiEQW19TI&amp;font=SansitaOne-Kameron&amp;maptype=toner&amp;lang=en&amp;height=650" width="100%" height="650" frameborder="0"></iframe>
-
-<p>Click <a href="//cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1IS-nv6oTOIGybvZNVIJQGxfy85Y12mNG6eaiEQW19TI&amp;font=SansitaOne-Kameron&amp;maptype=toner&amp;lang=en">here</a> to watch it on full size.</p>
+        <div class="page__content">
+          <p>Miguel Ángel Domínguez Coloma</p>
 
         </div>
-
-        <div class="post__share">
-          <div class="share__head">
-            <div class="share__title">Share this article</div>
-          </div>
-          <ul class="share__list list-reset">
-            <li class="share__item">
-              <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://eridem.net/second-system-syndrome"
-                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-            </li>
-
-            <li class="share__item">
-              <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Second%20System%20Syndrome&url=http://eridem.net/second-system-syndrome"
-                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-            </li>
-
-            <li class="share__item">
-              <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://eridem.net/second-system-syndrome&title=Second%20System%20Syndrome&summary=&source=miguel%20%C3%A1ngel%20dom%C3%ADnguez%20coloma"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
-            </li>
-
-            <li class="share__item">
-              <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url=http://eridem.net/second-system-syndrome&amp;media=http://eridem.net/images/featured/2015-07-21-second-system-syndrome.jpg&amp;description=Second%20System%20Syndrome"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
-              rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="post__navigation">
-          
-          <a class="prev" href="/generating-gifs-with-csharp">
-            <img src="/images/featured/2015-07-04-generating-gifs-with-csharp.jpg">
-            <div class="post__nav-box">
-              <div class="post__nav post__nav__prev"><i class="ion ion-ios-arrow-back"></i> Previous
-                Page</div>
-              <h4 class="post__nav__title">Generating GIFs with C#</h4>
-            </div>
-          </a>
-          
-          
-          <a class="next" href="/webaudio-tutorial-explained-with-images">
-            <img src="/images/featured/2015-08-12-webaudio-tutorial-explained-with-images.jpg">
-            <div class="post__nav-box">
-              <div class="post__nav post__nav__next">Next Page <i class="ion ion-ios-arrow-forward"></i></div>
-              <h4 class="post__nav__title">WebAudio tutorial, explained with images</h4>
-            </div>
-          </a>
-          
-        </div>
-
-        
-
       </article>
-      <!-- end post -->
+      <!-- end page -->
     </div>
   </div>
 </div>
